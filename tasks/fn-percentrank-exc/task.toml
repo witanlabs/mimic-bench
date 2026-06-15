@@ -2,7 +2,7 @@ schema_version = "1.3"
 artifacts = []
 
 [task]
-name = "oracle-bench/fn-percentrank-exc"
+name = "mimic-bench/fn-percentrank-exc"
 description = "Infer and implement the Excel-compatible PERCENTRANK.EXC function with a runtime-configured oracle query budget."
 authors = [{ name = "Nuno" }]
 keywords = ["oracle", "spec-inference", "jsonl", "excel-function"]

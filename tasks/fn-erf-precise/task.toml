@@ -2,7 +2,7 @@ schema_version = "1.3"
 artifacts = []
 
 [task]
-name = "oracle-bench/fn-erf-precise"
+name = "mimic-bench/fn-erf-precise"
 description = "Infer and implement the Excel-compatible ERF.PRECISE function with a runtime-configured oracle query budget."
 authors = [{ name = "Nuno" }]
 keywords = ["oracle", "spec-inference", "jsonl", "excel-function"]

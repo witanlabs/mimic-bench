@@ -2,7 +2,7 @@ schema_version = "1.3"
 artifacts = []
 
 [task]
-name = "oracle-bench/fn-norm-inv"
+name = "mimic-bench/fn-norm-inv"
 description = "Infer and implement the Excel-compatible NORM.INV function with a runtime-configured oracle query budget."
 authors = [{ name = "Nuno" }]
 keywords = ["oracle", "spec-inference", "jsonl", "excel-function"]

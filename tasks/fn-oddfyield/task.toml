@@ -2,7 +2,7 @@ schema_version = "1.3"
 artifacts = []
 
 [task]
-name = "oracle-bench/fn-oddfyield"
+name = "mimic-bench/fn-oddfyield"
 description = "Infer and implement the Excel-compatible ODDFYIELD function with a runtime-configured oracle query budget."
 authors = [{ name = "Nuno" }]
 keywords = ["oracle", "spec-inference", "jsonl", "excel-function"]

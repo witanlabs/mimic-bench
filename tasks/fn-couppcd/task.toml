@@ -2,7 +2,7 @@ schema_version = "1.3"
 artifacts = []
 
 [task]
-name = "oracle-bench/fn-couppcd"
+name = "mimic-bench/fn-couppcd"
 description = "Infer and implement the Excel-compatible COUPPCD function with a runtime-configured oracle query budget."
 authors = [{ name = "Nuno" }]
 keywords = ["oracle", "spec-inference", "jsonl", "excel-function"]

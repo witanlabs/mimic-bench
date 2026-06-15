@@ -1,7 +1,7 @@
 [project]
-name = "oracle-bench"
+name = "mimic-bench"
 version = "0.1.0"
-description = "Harbor-style oracle-backed black-box operator inference benchmark."
+description = "Oracle-backed coding-agent benchmark for underspecified programming tasks."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

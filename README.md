@@ -1,10 +1,10 @@
-# Oracle Bench
+# Mimic Bench
 
-Oracle Bench is a coding-agent benchmark for measuring how well agents can use external feedback to solve underspecified programming tasks.
+Mimic Bench is a coding-agent benchmark for measuring how well agents can use external feedback to solve underspecified programming tasks.
 
 In many real engineering workflows, the human does not know every edge case up front. A useful agent should be able to make progress anyway: form hypotheses, run experiments, observe trustworthy feedback, revise its implementation, and continue until the artifact matches the target behavior. Agents that can do this reliably can run longer with less supervision and produce higher-quality outputs in domains where prose specs and static tests are incomplete.
 
-Oracle Bench isolates that capability. Each task gives an agent a function name, accepted arities, and a queryable black-box oracle. The agent can ask the oracle for outputs on inputs it chooses during rollout, then must submit an executable CLI. A hidden verifier checks whether the submitted program matches the same trusted Excel-compatible formula engine on fixed evaluation inputs.
+Mimic Bench isolates that capability. Each task gives an agent a function name, accepted arities, and a queryable black-box oracle. The agent can ask the oracle for outputs on inputs it chooses during rollout, then must submit an executable CLI. A hidden verifier checks whether the submitted program matches the same trusted Excel-compatible formula engine on fixed evaluation inputs.
 
 The point is not spreadsheet knowledge by itself. Excel-compatible functions are a convenient benchmark substrate: they have many edge cases, deterministic answers, cheap oracle queries, and an exact compatibility target. The checked-in corpus currently contains 106 `fn-*` tasks and no other task families.
 
@@ -24,7 +24,7 @@ Accuracy is exact task success on scored tasks: 13 solved out of 44 scored trial
 
 ## What It Measures
 
-Oracle Bench measures whether an agent can independently close the gap between an underspecified interface and a correct implementation using feedback it obtains during the task.
+Mimic Bench measures whether an agent can independently close the gap between an underspecified interface and a correct implementation using feedback it obtains during the task.
 
 A successful agent needs to:
 

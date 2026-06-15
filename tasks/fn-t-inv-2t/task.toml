@@ -2,7 +2,7 @@ schema_version = "1.3"
 artifacts = []
 
 [task]
-name = "oracle-bench/fn-t-inv-2t"
+name = "mimic-bench/fn-t-inv-2t"
 description = "Infer and implement the Excel-compatible T.INV.2T function with a runtime-configured oracle query budget."
 authors = [{ name = "Nuno" }]
 keywords = ["oracle", "spec-inference", "jsonl", "excel-function"]

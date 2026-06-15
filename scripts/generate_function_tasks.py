@@ -164,7 +164,7 @@ def render_task_toml(function_name: str, task_name: str, arities: list[int]) -> 
 artifacts = []
 
 [task]
-name = "oracle-bench/{task_name}"
+name = "mimic-bench/{task_name}"
 description = "Infer and implement the Excel-compatible {function_name} function with a runtime-configured oracle query budget."
 authors = [{{ name = "Nuno" }}]
 keywords = ["oracle", "spec-inference", "jsonl", "excel-function"]

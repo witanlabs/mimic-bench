@@ -1,431 +1,431 @@
 [dataset]
-name = "oracle-bench/mvp"
-description = "MVP Harbor dataset for anonymous oracle-backed operator inference."
+name = "mimic-bench/mvp"
+description = "Harbor dataset for oracle-backed coding-agent tasks."
 keywords = [ "oracle", "spec-inference", "terminal", "coding-agents",]
 [[dataset.authors]]
 name = "Nuno"
 
 
 [[tasks]]
-name = "oracle-bench/fn-accrint"
-digest = "sha256:f7eadab55c5986056d96a7ad2690bf198c0242d412c588147ca9702494b632d5"
+name = "mimic-bench/fn-accrint"
+digest = "sha256:a8235fd27ec7dc1d4d5d818689a227f557a22d6de613adf60da9bd79675b6e86"
 
 [[tasks]]
-name = "oracle-bench/fn-accrintm"
-digest = "sha256:c03190b4e5d88ba072bdbe8f542e5de91f813fe76701f73455393eeb553502e0"
+name = "mimic-bench/fn-accrintm"
+digest = "sha256:a43c6d0b138dc8229d4fa429b6b1ca85b0985594ef54922f01460f92ac0628f9"
 
 [[tasks]]
-name = "oracle-bench/fn-aggregate"
-digest = "sha256:7697c85b129281d0b22dd3ea53ca3d8ebe185f228b601da6321ae8039382c763"
+name = "mimic-bench/fn-aggregate"
+digest = "sha256:f64293c269dd21e86cdb8dfe8b9c59c0204e08b54958a236f7ad8fee380020cc"
 
 [[tasks]]
-name = "oracle-bench/fn-amordegrc"
-digest = "sha256:80ed3545279a73e8090d5dc6eb9c7b2e8d257ee47aef913bcd846701e9540ce5"
+name = "mimic-bench/fn-amordegrc"
+digest = "sha256:5207fefdedaf33d1348ddb6d4dd5a05c96d79a7e98976566af7de2f17005c4c9"
 
 [[tasks]]
-name = "oracle-bench/fn-amorlinc"
-digest = "sha256:3a9a4a33656e4c35b2973ce848c2ead60124b53c3d433dfbd418e2e739e17b49"
+name = "mimic-bench/fn-amorlinc"
+digest = "sha256:a6524d701ce30bb6edc32fad5880bf910ca80a493297a2670a834e189a67b016"
 
 [[tasks]]
-name = "oracle-bench/fn-averageif"
-digest = "sha256:294a147359d2d786dad2b466e4a5eab6329e4fcda25211ae9eea69bb1e4fb2c3"
+name = "mimic-bench/fn-averageif"
+digest = "sha256:8d9ba17eab57654801dc53962d04b8e8070ee2717d55ae5a18fa3cfa5d880ab0"
 
 [[tasks]]
-name = "oracle-bench/fn-averageifs"
-digest = "sha256:ee2e90e2461597182cf670d086be731feb6d5e57557a0449fe4bf1c6d8389912"
+name = "mimic-bench/fn-averageifs"
+digest = "sha256:da05134d55eee7f1ec7c68d2a31aab797603196913308574b9d864ef25980586"
 
 [[tasks]]
-name = "oracle-bench/fn-besselj"
-digest = "sha256:67860d48271f9981f4516ec73dab0787f8f91da80d0175a18eb9146e0775542b"
+name = "mimic-bench/fn-besselj"
+digest = "sha256:f25a4b75236a82efffa0ad64ec22b60be0bd769eee7be7d676bbc7b5cd3033c8"
 
 [[tasks]]
-name = "oracle-bench/fn-besselk"
-digest = "sha256:0295d2cc65556ff4db559df32cfc04c3fb553ac8361e24831567de02987c5ace"
+name = "mimic-bench/fn-besselk"
+digest = "sha256:ccf60b44433814d5125747edc96715c90b0fc8b57e577530814102e8ca2600f4"
 
 [[tasks]]
-name = "oracle-bench/fn-beta-dist"
-digest = "sha256:9df4329fbb27cdcd157de6ba1940b036e1f7e4d513cd7ed190f03c3dec75df96"
+name = "mimic-bench/fn-beta-dist"
+digest = "sha256:0dafc67e69389679ffc75741669b03df770b0a3c6ee9eb6758e9c9cbcf68aab5"
 
 [[tasks]]
-name = "oracle-bench/fn-beta-inv"
-digest = "sha256:3fa07af81f7bf995f1a874cbef6125dc994d119a18175e5662f6c8f02946aa73"
+name = "mimic-bench/fn-beta-inv"
+digest = "sha256:9ff8cc4addf1b1edfec3e7519f7e514fda9c741696d4e9d157a071e4835851d1"
 
 [[tasks]]
-name = "oracle-bench/fn-chisq-dist"
-digest = "sha256:42bfa9ec2860330600ee141582c42b71c150def92e72de449bcf801c33c25858"
+name = "mimic-bench/fn-chisq-dist"
+digest = "sha256:280aca10bbe66e48b83f55efb9ab0969359113c54618f2a4bf53c2158dfe8ee4"
 
 [[tasks]]
-name = "oracle-bench/fn-chisq-inv"
-digest = "sha256:2dc723ff5841820aa2cdb473dcc33207806ca35476af946f86c56fa7dcb36da5"
+name = "mimic-bench/fn-chisq-inv"
+digest = "sha256:cdb77d85b4fce6f769bb4cf12e4f32d61d94f7c8f53b34f9bc1a201013491b0a"
 
 [[tasks]]
-name = "oracle-bench/fn-chisq-inv-rt"
-digest = "sha256:602e231df31ded8fc37f79968ba3599d3aa76184a0b87993caaf17e94a3bc256"
+name = "mimic-bench/fn-chisq-inv-rt"
+digest = "sha256:567692910b48c9b8715d332ccf878c43d4eed7a2193c5a9bafee36c6fd5eed52"
 
 [[tasks]]
-name = "oracle-bench/fn-chisq-test"
-digest = "sha256:3c72f319ec6a31637e746bfd324490e792d63cbe0f74831c51bd35fbf6bf5575"
+name = "mimic-bench/fn-chisq-test"
+digest = "sha256:8baa18121e9954e2558ad394700a4186d3a67a5935757f83bb0e02010d03e623"
 
 [[tasks]]
-name = "oracle-bench/fn-confidence-norm"
-digest = "sha256:3cc00d3ca7b2f947aee8dcf64519a500fc7992b29e30cb14646dc6d3a6542d53"
+name = "mimic-bench/fn-confidence-norm"
+digest = "sha256:12ff982664eb03374cfd45340393d5c7dca996db2e12ac1de849cf6e905620a2"
 
 [[tasks]]
-name = "oracle-bench/fn-confidence-t"
-digest = "sha256:d07457c8c99ca4445a235e6c70a82b76625c7c865d3424ed84cf804beb58f9e3"
+name = "mimic-bench/fn-confidence-t"
+digest = "sha256:93a45ec5f907548920296b6ccfd3353990aafb813eaae0faf9d7f185cf416f1b"
 
 [[tasks]]
-name = "oracle-bench/fn-convert"
-digest = "sha256:13f3787f7142878337f38bc592825f2c7e3107460f0c5119ddff63cfbba03708"
+name = "mimic-bench/fn-convert"
+digest = "sha256:8c418c9953d55b649c8e865e5792ebcc923c877f4a890716c0f0789199fdd336"
 
 [[tasks]]
-name = "oracle-bench/fn-countif"
-digest = "sha256:fd2b94ba2e8046a21c221d019862249400d64e5f0faaf751001eb8675d043421"
+name = "mimic-bench/fn-countif"
+digest = "sha256:4898d3ed1ef43f575363b21c0b20e37420da932c07b52932b4a7180e5ef37c72"
 
 [[tasks]]
-name = "oracle-bench/fn-countifs"
-digest = "sha256:0596596a77a7c553adfff6aa173a69f3286f54bfb0e041498177e67b85de2712"
+name = "mimic-bench/fn-countifs"
+digest = "sha256:ef9ed026fd74c11b45f833a52b082800d7f188f52b380ea18c26cdc92e216e87"
 
 [[tasks]]
-name = "oracle-bench/fn-coupdaybs"
-digest = "sha256:3b7b2f7808ac20002c112b0c3477041f4759f205d0b6a2749eca37052a4bdc00"
+name = "mimic-bench/fn-coupdaybs"
+digest = "sha256:0eb5f66957c67ab0dec76656b5a5aeeb7863c884c90de6d64cb186b4b5a7db50"
 
 [[tasks]]
-name = "oracle-bench/fn-coupdays"
-digest = "sha256:42bc972398363f19b6cbbb97055652d81cf381a2394502d6136669e2f46a1684"
+name = "mimic-bench/fn-coupdays"
+digest = "sha256:4ffaccfa1455bb8df3ffee342017f30c0dc758567e54d138881cd7c3ef404ad8"
 
 [[tasks]]
-name = "oracle-bench/fn-coupdaysnc"
-digest = "sha256:2b5b293cc0aaf9f90a7ccab54b2e0ac92ffcb068fc1e02daf83eeed7cf96ca2a"
+name = "mimic-bench/fn-coupdaysnc"
+digest = "sha256:5deb71ddbd9a9412e36384a70bfcde7c2f47f5b4e8b978e2b8a734caeca20b98"
 
 [[tasks]]
-name = "oracle-bench/fn-coupncd"
-digest = "sha256:77f0a1d3b84ca8a0e5b132f03bc57e049bb140c76dff109aed644509c1305782"
+name = "mimic-bench/fn-coupncd"
+digest = "sha256:5c80d2566f1458ee1ffd0eeed4aeedea7fddbcd326dbebcd0932a649326f5aaf"
 
 [[tasks]]
-name = "oracle-bench/fn-coupnum"
-digest = "sha256:57a0785360960b675ee4c110740c595658f3527a64c8aaf97ba6bfb1deebeb0e"
+name = "mimic-bench/fn-coupnum"
+digest = "sha256:79495c11478388f21f6fb8fd1851a0166e4a3190dee026795215520b5e76ec95"
 
 [[tasks]]
-name = "oracle-bench/fn-couppcd"
-digest = "sha256:7d61d0fc1d9653e5ccdaeddd249a4d423fb9e5e9d7297d176aae3498a9b31348"
+name = "mimic-bench/fn-couppcd"
+digest = "sha256:61fbe861133eaaf68f6c85a6ed782b1b14eb86663911570bdfe018f1c241a42a"
 
 [[tasks]]
-name = "oracle-bench/fn-disc"
-digest = "sha256:12bc6c30a5091fc88d548aa78e1fac46ff548979fb0fa51f3643c0e2f4b6b2b7"
+name = "mimic-bench/fn-disc"
+digest = "sha256:93bf0e77f275bcabd7b9d6cef0c7fd81cde9a940f25f8e1fcd09941738b3e2ae"
 
 [[tasks]]
-name = "oracle-bench/fn-duration"
-digest = "sha256:d67af22e404e7854a39bf9901eac7c0f21e8bf19be89e3a268f5c3404beb0677"
+name = "mimic-bench/fn-duration"
+digest = "sha256:cb731971d7da77e42fa28e84565af1588f6fdd1c3ded68f69460ac948bbcf1e6"
 
 [[tasks]]
-name = "oracle-bench/fn-erf"
-digest = "sha256:40660bdd650a072159506cb6ea0e3823726a12f4563f013c884a622b75f1bc7e"
+name = "mimic-bench/fn-erf"
+digest = "sha256:ae1efc30b1919d4594b2fe5877fb5a8ac155c5b6c1e870595075f1a7506752f4"
 
 [[tasks]]
-name = "oracle-bench/fn-erf-precise"
-digest = "sha256:e3ca25c7990345e39ce12bda4bf370e78b242eda2880f6a0f5973116c95fba54"
+name = "mimic-bench/fn-erf-precise"
+digest = "sha256:06559e7b9e98bba152876c2c8c98992a88488b69a4811ca5e39e180ad644dbf5"
 
 [[tasks]]
-name = "oracle-bench/fn-erfc-precise"
-digest = "sha256:9f6b2fe608bd5db9447790e7d87ad112c5ca5047b9f13d218bb6f2cd97bcb97f"
+name = "mimic-bench/fn-erfc-precise"
+digest = "sha256:f7962c05567b12034855f28b27aebb4b0c71ee5c7637d4b9c36a4eac2177960d"
 
 [[tasks]]
-name = "oracle-bench/fn-f-dist"
-digest = "sha256:4fcffe4876ee348c08e83ad67952a8067ee2a746edd5a449b55fc6a6f7d680cb"
+name = "mimic-bench/fn-f-dist"
+digest = "sha256:1cff25d776377df8092e454716f1341f67fcd3a53507b1aea3df15b881ec23c4"
 
 [[tasks]]
-name = "oracle-bench/fn-f-dist-rt"
-digest = "sha256:05b672ed6eec1091d15e18f1810609ca8578f54746ecdd60371c1620860bed12"
+name = "mimic-bench/fn-f-dist-rt"
+digest = "sha256:3f5baa83b78d392a74813ea01b0dcc88acca6360900db5c67bc79defadc6b0af"
 
 [[tasks]]
-name = "oracle-bench/fn-f-inv"
-digest = "sha256:fcb00301b945df76d814eaa8a0129a535aed5be7c6ea12389fe2d7003a1a1098"
+name = "mimic-bench/fn-f-inv"
+digest = "sha256:6d18b680fe4884b578821dedbee0cc7943465f5dc52a477675ee25a68edcce24"
 
 [[tasks]]
-name = "oracle-bench/fn-f-inv-rt"
-digest = "sha256:df44f50bddb43248825897ca3c4a974e943a2ff6d16266ff741b4d79306c439d"
+name = "mimic-bench/fn-f-inv-rt"
+digest = "sha256:65143d369a1a34fe4853ed35e90708d479cfd148640e3031542fefba1c605871"
 
 [[tasks]]
-name = "oracle-bench/fn-f-test"
-digest = "sha256:f68685c17e56577098b2aa4a30b055e60ed418769fed4356997c4eebee3ca9b2"
+name = "mimic-bench/fn-f-test"
+digest = "sha256:36cdbd4e329de26c69f8a0e96afae29f9e330785cf55cb3fc8264391f2ccf20b"
 
 [[tasks]]
-name = "oracle-bench/fn-fvschedule"
-digest = "sha256:f0b95093ff3885fa674fa3440cfe441cb246a6d9189a853bca8ea7a9f2da2c8a"
+name = "mimic-bench/fn-fvschedule"
+digest = "sha256:9bebf63f304a8d0aefd7771bff9193274847f810b81ec64df3c954cad0de9c95"
 
 [[tasks]]
-name = "oracle-bench/fn-gamma-dist"
-digest = "sha256:8343f115c10ffb71f9e2ab423377021aef35d3dbe7a8038104f1cb4a26f02039"
+name = "mimic-bench/fn-gamma-dist"
+digest = "sha256:b2a9ec9524dd83c3ee40b5235c3f96559c0aefbd049fbc70da7809b5a56dfbb6"
 
 [[tasks]]
-name = "oracle-bench/fn-gamma-inv"
-digest = "sha256:2c3b123b7ecf9b672ecf4d19567942dea4b643818742f144428b7f081552ea83"
+name = "mimic-bench/fn-gamma-inv"
+digest = "sha256:fdc86155bfe124e07ad79a0a9f13f2e6391515494ce3b8bdae65b48d7cf4b763"
 
 [[tasks]]
-name = "oracle-bench/fn-gauss"
-digest = "sha256:f0509e66cae08278826c7cd286aeeda9e3a288bd168b7120b0dfcf91a4b6af54"
+name = "mimic-bench/fn-gauss"
+digest = "sha256:dc725d53da43dad8d9b13925eaee1f40788eac1c913d4103b0dd80bed73d8254"
 
 [[tasks]]
-name = "oracle-bench/fn-growth"
-digest = "sha256:9677e40a8d1076ab822e3310804f217eef3e22b927d011bde6d1c5c2f3d55e59"
+name = "mimic-bench/fn-growth"
+digest = "sha256:4d1fcd73f938942971cb0cd4ff367786829b3b8535dd78bad58e0c6a56431e11"
 
 [[tasks]]
-name = "oracle-bench/fn-hlookup"
-digest = "sha256:f1be012fd986679364f71c9484e61f2dcd77308668987ab9ba563ef193a39b86"
+name = "mimic-bench/fn-hlookup"
+digest = "sha256:599ea32cbac8c2a4766ab534dbaf3bd620922af03c61d4d999b08ce200f1a11f"
 
 [[tasks]]
-name = "oracle-bench/fn-imcsc"
-digest = "sha256:5769bde0c3d34e7e316dc487cbadba2f07093663ffcadcbf38593f41e4b0728f"
+name = "mimic-bench/fn-imcsc"
+digest = "sha256:5d40625494d9fb29108d8a099129416535d56cb80899d3d5c8fe312cae42f23a"
 
 [[tasks]]
-name = "oracle-bench/fn-imcsch"
-digest = "sha256:c92c4918e975917a7c88143cf3c3522cee4344057ad034ec016c7d41b8af9677"
+name = "mimic-bench/fn-imcsch"
+digest = "sha256:a991924e8bc2bc0c74821667869f6025123b87213eaac458623dc92203a31470"
 
 [[tasks]]
-name = "oracle-bench/fn-imdiv"
-digest = "sha256:33bca45ab90901fa033ded61440f54d1e54a71cb353aff9230feec8baba84b91"
+name = "mimic-bench/fn-imdiv"
+digest = "sha256:4d273e8c756296b246d45d9137b73f9f2467a0972814720e78bc39b1b9cbb931"
 
 [[tasks]]
-name = "oracle-bench/fn-improduct"
-digest = "sha256:44dc7aafde4adf96cb7761a226f4eeaafe910377919a01af74aaf76e24e84973"
+name = "mimic-bench/fn-improduct"
+digest = "sha256:e78aca013e9404e949881a8519cfe267a845a779dad3ac8dd97ddb5c841e2b77"
 
 [[tasks]]
-name = "oracle-bench/fn-imsub"
-digest = "sha256:843d29b9c9bf8cf890a0ea0dcec1a2962de9e826b439904e41212d7e1660092a"
+name = "mimic-bench/fn-imsub"
+digest = "sha256:1ae4db2aa71102e23ac4a0e1d0206357cf786265ff63a9c1a7038f988d6d895a"
 
 [[tasks]]
-name = "oracle-bench/fn-imsum"
-digest = "sha256:fb1dcd115e577ae77621b61f6156979beb7758ec3304bd36e22875c74e5dfeaf"
+name = "mimic-bench/fn-imsum"
+digest = "sha256:0c7ac99de48f84a391ca6c5a1da4d8f6121e735d0967283708584cbe4a75fc6d"
 
 [[tasks]]
-name = "oracle-bench/fn-indirect"
-digest = "sha256:9540762398d712a6d64787402c478b13be3da5e531cdeb1aafeda8b819283638"
+name = "mimic-bench/fn-indirect"
+digest = "sha256:6d4e968e3df709d90ea3fa1452f8c22268da97af27cea6a80f64094b7defaa9d"
 
 [[tasks]]
-name = "oracle-bench/fn-intrate"
-digest = "sha256:8917c7370259db562b3181e4c9b2a933dfebb106bc61743c81703ee9d2db64e6"
+name = "mimic-bench/fn-intrate"
+digest = "sha256:aa51250d45a374711f516fbb6ee1f1269e100604f9243ca9910dabd3626a4db9"
 
 [[tasks]]
-name = "oracle-bench/fn-irr"
-digest = "sha256:39aed7778a89d035e4aa18265e1e5ba1b9da1d44d49a9aa5845f2ebb9ede20d2"
+name = "mimic-bench/fn-irr"
+digest = "sha256:0dabe429b4f3e6b3c61111ba885ea3853ba92ae092f2fc7ae110cc7656d15ce6"
 
 [[tasks]]
-name = "oracle-bench/fn-linest"
-digest = "sha256:0d4e1d6fe1f9b633207f7c155df65c367d2829c2f9cd4ee641be6df26c1214d8"
+name = "mimic-bench/fn-linest"
+digest = "sha256:31bb1483cc59fb17ffe17e70388f16b75af1558b4db49b796917f7ae5cf79e51"
 
 [[tasks]]
-name = "oracle-bench/fn-logest"
-digest = "sha256:c64d6bcdff3a6e5e6fe092a3e57fc080145a0a22b156e29931962827683e710a"
+name = "mimic-bench/fn-logest"
+digest = "sha256:7a050055dfddd6a59340dfc206426e5fcbc1a7de108a3aedf4852876945bfd3b"
 
 [[tasks]]
-name = "oracle-bench/fn-lognorm-dist"
-digest = "sha256:95a3fd61b378a09503a1deaec38719716fb8ac050a78885bf015e089cd0879f1"
+name = "mimic-bench/fn-lognorm-dist"
+digest = "sha256:ba31fe7421033ababcd156acd5d891691fb87fc5918600892d5d6239e7e72020"
 
 [[tasks]]
-name = "oracle-bench/fn-lognorm-inv"
-digest = "sha256:1898ee314dc207aec34e25104b6c738eb3e1ed0c20afd3a7774d4adb0e78cbe3"
+name = "mimic-bench/fn-lognorm-inv"
+digest = "sha256:ebbec3488be528259cd88ebfa46eafb90b70daeca8a071206d6a3766a0b69224"
 
 [[tasks]]
-name = "oracle-bench/fn-lookup"
-digest = "sha256:3cc0a4116ac91c5e07f785b0b8c9566903fed6d13c3db541c6d522d667d190a6"
+name = "mimic-bench/fn-lookup"
+digest = "sha256:5cadd11cda917c2fcb5a7f4ff7ff8fc2397e4fa436f7bbb5de316a62bdd9a89e"
 
 [[tasks]]
-name = "oracle-bench/fn-match"
-digest = "sha256:c014ac613a303c933d319fe07dbe3e864d569b4a9ba81ce0b4ada8d782fbcb4d"
+name = "mimic-bench/fn-match"
+digest = "sha256:034221d9c73f3641f7ad112444eda15b727d731ef4c79db1c155e2de1f322438"
 
 [[tasks]]
-name = "oracle-bench/fn-maxifs"
-digest = "sha256:ccdbf8594886ec82aa9c775d7c12253bd16b71faa2c4cdbe57c50c199da0d4ad"
+name = "mimic-bench/fn-maxifs"
+digest = "sha256:2ef2bfa95d1fe8d9c722e426f638db75e339909dc366ad6e6659107e0f9ae4f8"
 
 [[tasks]]
-name = "oracle-bench/fn-mduration"
-digest = "sha256:9ac101b94a28b485fe5c62d74b25c1996d1a82e25c3c37b3d0f3b49e507b00fc"
+name = "mimic-bench/fn-mduration"
+digest = "sha256:d624f4348a9f3efba8765ced86af17d20ee9a8909a2963ce31b14e6377ee044f"
 
 [[tasks]]
-name = "oracle-bench/fn-minifs"
-digest = "sha256:ec2dd47aa3127e9d6e1c3e8be20cdeb2044bdf3c176b39771670444fcf1fc083"
+name = "mimic-bench/fn-minifs"
+digest = "sha256:2f8c47b2caa7d3fd08bb64d26d01f46ba8d48aae7773dd5645cdee6f561fabdb"
 
 [[tasks]]
-name = "oracle-bench/fn-mirr"
-digest = "sha256:f8545bc20733f6c934e8a4ae7ef6a3df9110bef74b6d78fe7533d2eb7e4230a7"
+name = "mimic-bench/fn-mirr"
+digest = "sha256:1ed281bdd22e01663a90268efc1c32f01209cf95cbd83212350d333cfc66cfa1"
 
 [[tasks]]
-name = "oracle-bench/fn-networkdays-intl"
-digest = "sha256:23990dd3411ad3d349df3b537aeee35724c2295d5e261acf941d76c29f7eb9f3"
+name = "mimic-bench/fn-networkdays-intl"
+digest = "sha256:fb3fbdd8da31e93b315329b6600acd5691952e0e082e136cf7559cda88e32c87"
 
 [[tasks]]
-name = "oracle-bench/fn-norm-dist"
-digest = "sha256:22fa93e57f5bc2d257795fffb7db66ff2c4bad073ce37079a15053d7137d5535"
+name = "mimic-bench/fn-norm-dist"
+digest = "sha256:93888504d7c41baa75b2b6cb00e25cfe1d66ea47924094270f96460a31cb3ba6"
 
 [[tasks]]
-name = "oracle-bench/fn-norm-inv"
-digest = "sha256:e9a8eadd37daf1fc72d3148ea5291cfd4ee26a11d966c0ac0032ceafa358f535"
+name = "mimic-bench/fn-norm-inv"
+digest = "sha256:5499f9459108b590c0786afeab6a43648874ef04f9be092e3964750193170c3e"
 
 [[tasks]]
-name = "oracle-bench/fn-norm-s-dist"
-digest = "sha256:ff86e4224446ecbf359ea8766736a304ef2a8940512add91ef242c6358820605"
+name = "mimic-bench/fn-norm-s-dist"
+digest = "sha256:efba253bfcf70425e7451e4de5113247fc535c4f29b38d46ecb46d0c3a0bb861"
 
 [[tasks]]
-name = "oracle-bench/fn-norm-s-inv"
-digest = "sha256:68ae9b532995a227f7f79d9e827e20736a93c41fccefb60831f8ef53ca2a3fd2"
+name = "mimic-bench/fn-norm-s-inv"
+digest = "sha256:fbc8802226ed5d07942ab055f6e65ca030f437962095755b9288ad3f6cdd5554"
 
 [[tasks]]
-name = "oracle-bench/fn-oddfprice"
-digest = "sha256:b829e2a55332867eae81beb55b6f903d47026311dcfee86f1e1b1cfaa6a64a1c"
+name = "mimic-bench/fn-oddfprice"
+digest = "sha256:45104c9893fe67f6e80ed2cef9b7bf2e5b7ed20d5b152cd816fbff79aa6b3f40"
 
 [[tasks]]
-name = "oracle-bench/fn-oddfyield"
-digest = "sha256:2137f08841ffc7405944e3a054de1677b9a181f9770c06e8b621dd398bf6960e"
+name = "mimic-bench/fn-oddfyield"
+digest = "sha256:cfcd36eb8f4604a28d4245964ce0a99b322e353b76ce906b08216f198c41674f"
 
 [[tasks]]
-name = "oracle-bench/fn-oddlprice"
-digest = "sha256:50d2a1686ada2779fd413389e32f3737ed1aee4f10e016357f6d4c6103039a86"
+name = "mimic-bench/fn-oddlprice"
+digest = "sha256:d9b961610f58cfc659e3dd657bd06e67349ec205c522cd859ff18a1c0a8682e6"
 
 [[tasks]]
-name = "oracle-bench/fn-percentrank-exc"
-digest = "sha256:b7417696e571783df4ec184d966011d64e8937aa29630db436c41044e5a345f3"
+name = "mimic-bench/fn-percentrank-exc"
+digest = "sha256:9865ab06efc8ec2d8003556f15a0ba62a7334729d591b5be866e5b7ce6ed5a97"
 
 [[tasks]]
-name = "oracle-bench/fn-percentrank-inc"
-digest = "sha256:7fcf99a12a0b9e576e30faf71e7941eaae647efa2e6630432ffa1a3904a2fcc9"
+name = "mimic-bench/fn-percentrank-inc"
+digest = "sha256:ca99532576a2f726eed9cb6cc89d38004d53127d3780e0dbaf2952aae2cfd5fa"
 
 [[tasks]]
-name = "oracle-bench/fn-price"
-digest = "sha256:94aa0881a16b5ece4d62b38c5eb4d3201d209a901a51bd24a9ee39e1af1c1690"
+name = "mimic-bench/fn-price"
+digest = "sha256:433044a97ca69e8efd9c340f3e4a7a2b03b30478a4b968567bafadcd20ad480e"
 
 [[tasks]]
-name = "oracle-bench/fn-pricedisc"
-digest = "sha256:0c4a050cc6b17f0e86de532f11344e0f67b7fb5cd157259357dc93897d43bb52"
+name = "mimic-bench/fn-pricedisc"
+digest = "sha256:928958a083528396c48c7b097d0ad71fdc99479d267dab7ee05e3ebf5da7d34a"
 
 [[tasks]]
-name = "oracle-bench/fn-pricemat"
-digest = "sha256:a900a63053122d022ce78a9b99a6ecbb1a61e15ec50b3928d9b991f917a49a09"
+name = "mimic-bench/fn-pricemat"
+digest = "sha256:9b0096b4ecea997af86d1377fbfaef277109a1fc4aa97952b13bdd1894f3fb3f"
 
 [[tasks]]
-name = "oracle-bench/fn-received"
-digest = "sha256:119937e502e9028a365f2462529257185aa6fb5404b01382b5e7972ebf53a567"
+name = "mimic-bench/fn-received"
+digest = "sha256:e701f8959e1a30ded55d4f30f107d93e943896314de69de22651cbd72483c36b"
 
 [[tasks]]
-name = "oracle-bench/fn-regexextract"
-digest = "sha256:624bd4e38d7028ee4afa0b6bbcfe0bd5d91cd648ee42235ed7e43baa93df8bf2"
+name = "mimic-bench/fn-regexextract"
+digest = "sha256:ba06f7696fb5a92adc10550a6fb48f5db331da8f5436d3de9e155f37a777f9f5"
 
 [[tasks]]
-name = "oracle-bench/fn-regexreplace"
-digest = "sha256:ed2d236be27d80993166a2ba4fc0e61d843e8620dc2cdad9d38a3d634bc72be4"
+name = "mimic-bench/fn-regexreplace"
+digest = "sha256:0daf5a91d7b1e3f3ac1043d9886141cd229dd371d367e8cf585e51639c5e90d6"
 
 [[tasks]]
-name = "oracle-bench/fn-sort"
-digest = "sha256:0a50308d154e476bba4aec1efb5da51f7f83c2b973c4f311c8950e00e9349f74"
+name = "mimic-bench/fn-sort"
+digest = "sha256:f48c3baa9085a83c36f7fedcb03397dc002562d7b4d545046e9104262a8d4782"
 
 [[tasks]]
-name = "oracle-bench/fn-sumif"
-digest = "sha256:4a0642e441df2e83a4b4659e4d261fb1d31fce0b85fb868370f97f520397c1ba"
+name = "mimic-bench/fn-sumif"
+digest = "sha256:9608ab4d20d0cc66747771003cde4a539862fc4c270e117ce6bdacf005f25232"
 
 [[tasks]]
-name = "oracle-bench/fn-sumifs"
-digest = "sha256:c0c1f60987bdad5189ba59b984166780221249b8f8ed01009f73940d70a733d8"
+name = "mimic-bench/fn-sumifs"
+digest = "sha256:766b11f66ff3794311c88d4ece8b05a143f7b3598b3ac7120f69cebcc5335e70"
 
 [[tasks]]
-name = "oracle-bench/fn-t-dist"
-digest = "sha256:ea7e16ca2c4317d7e575d6073a897082c0660539db429943b1ba55a676418eb7"
+name = "mimic-bench/fn-t-dist"
+digest = "sha256:5181428e01f9310b8be7c42e932fb3f4313706cc699c05e5b45e56c0a645f101"
 
 [[tasks]]
-name = "oracle-bench/fn-t-dist-2t"
-digest = "sha256:94a9ca1834b3b85fe450dbbee336c93acc990dba5253922b91b7af21ad05c021"
+name = "mimic-bench/fn-t-dist-2t"
+digest = "sha256:0586ba39f9bde37f688963261dacf0fd0a46b5667a87a6a6ac9cc758398abc94"
 
 [[tasks]]
-name = "oracle-bench/fn-t-dist-rt"
-digest = "sha256:cac6246848941816b10aaa72118a09ba81565720195b52e412cbabfbcd7f3d40"
+name = "mimic-bench/fn-t-dist-rt"
+digest = "sha256:e4fd41ad47be5f11d5185573608b81665385a91aede68596fe9095b24cf0e55c"
 
 [[tasks]]
-name = "oracle-bench/fn-t-inv"
-digest = "sha256:6a652bc701b08b07878c0d83e13a3d05252ad39b540a0d6ca0f881fb6ce89a3e"
+name = "mimic-bench/fn-t-inv"
+digest = "sha256:d866eee58f869407e25bbda33160a52194fc87495034a6d6a733542365174676"
 
 [[tasks]]
-name = "oracle-bench/fn-t-inv-2t"
-digest = "sha256:d3e1bd83fc0aada913c933ff5e1c8801a3b07abf0d1580e8bbbad7684c3d774f"
+name = "mimic-bench/fn-t-inv-2t"
+digest = "sha256:16be7b0963356ccda79176118eaad2d4782456f9728e3777fdbe9692ff263ad0"
 
 [[tasks]]
-name = "oracle-bench/fn-t-test"
-digest = "sha256:2e8be53c1e42666eb4701142b154d042aac011a58fa6cfd576b7bce731238ac4"
+name = "mimic-bench/fn-t-test"
+digest = "sha256:bd68f28d9dec00ec61c9c4397509068ca667c2879569a8b2a1b408e6d0f880ba"
 
 [[tasks]]
-name = "oracle-bench/fn-textafter"
-digest = "sha256:5e3a8e940660902399667cae209bb1ba4891c2cbe4ba5ccda2b7502539506641"
+name = "mimic-bench/fn-textafter"
+digest = "sha256:8043c8c5d9e7a6f85e097d3b634e70ea6e8951ab728c40150398174179cbeca8"
 
 [[tasks]]
-name = "oracle-bench/fn-textbefore"
-digest = "sha256:79059708210512468f64a80825e2f96c7393cc00fe8f2d3a5c75246df6dbf5e8"
+name = "mimic-bench/fn-textbefore"
+digest = "sha256:9fac8a62a14c247ba205d641f3f84c415202b19d1eb69c96c0bb1d1829323593"
 
 [[tasks]]
-name = "oracle-bench/fn-textsplit"
-digest = "sha256:e2edef875cd19c1ec55179f0b5d5d9f7f1ff8bdbe2d37e9d2479cc6e8e722737"
+name = "mimic-bench/fn-textsplit"
+digest = "sha256:25f19c730b19240fab5824d5cd81ce747f618300a0757a42e8580e1bad6efbf2"
 
 [[tasks]]
-name = "oracle-bench/fn-tocol"
-digest = "sha256:3b2465f54f41013f75ff844ae334f17a3a41de01394c6c2a71b990a4b0e3d1e3"
+name = "mimic-bench/fn-tocol"
+digest = "sha256:f034c5708681307f6e377de00ec9e16fe754a9e537d1e61b6df1dc89c7339b53"
 
 [[tasks]]
-name = "oracle-bench/fn-torow"
-digest = "sha256:6c5f97b2714412248ee2c703d505da8d0154b7057677302bb31d08a5ba2e6895"
+name = "mimic-bench/fn-torow"
+digest = "sha256:c5cd87a0bcd158ae9078bf055b54e3850d691f4b2a6f052c4064b6124332f856"
 
 [[tasks]]
-name = "oracle-bench/fn-trend"
-digest = "sha256:56cf7b50dc58985009ace43ecd3fe82d0baf99feeb2ba34608fa186f621f61ba"
+name = "mimic-bench/fn-trend"
+digest = "sha256:b1966ca49e3ddae96f1040eba3ef3b93fbf3f47ffd6ab3ed214929a65d7a0701"
 
 [[tasks]]
-name = "oracle-bench/fn-trimrange"
-digest = "sha256:0ce1196b53cb7b14515cf09065d2d811c72448e23371a42133f16547761e1ca5"
+name = "mimic-bench/fn-trimrange"
+digest = "sha256:151f60cf5a03428fd2aea8bbeedb2e2f7c53f6cb720770ce9d701804e4be70b1"
 
 [[tasks]]
-name = "oracle-bench/fn-unique"
-digest = "sha256:017022d3258602a09ac41826524d15dbe0d37b9b4a4f1d77e3289183a0feb9cb"
+name = "mimic-bench/fn-unique"
+digest = "sha256:470f747b722fed1240fa33423b3af93dd9f16ca65a582dc45444b1ed0204cd44"
 
 [[tasks]]
-name = "oracle-bench/fn-vdb"
-digest = "sha256:c23c7829780c977d8b0c8a32b9030e024406bbdcb215eb107627619b87f634e3"
+name = "mimic-bench/fn-vdb"
+digest = "sha256:2a74746a65ce3d7d89d807ff216cddbf72e6daf7ea0402d283d2ae710ffbf7b2"
 
 [[tasks]]
-name = "oracle-bench/fn-vlookup"
-digest = "sha256:21737142663203c0db1c57c83d7a4c29060b5e6ddac2739c8baa9203b1134067"
+name = "mimic-bench/fn-vlookup"
+digest = "sha256:b50b669455f7e375dbb72f0e83410b169772cf4be5c9fbb13f0760c8184e9e91"
 
 [[tasks]]
-name = "oracle-bench/fn-workday"
-digest = "sha256:2c09666b1853a8c31ecc7263af0726f1cd98f2ca49f5551b3cc7c478d7ef9eba"
+name = "mimic-bench/fn-workday"
+digest = "sha256:6141e6ebefab866d19e448a78719b8066288c7fb04d3533611d9088788cc62df"
 
 [[tasks]]
-name = "oracle-bench/fn-workday-intl"
-digest = "sha256:d6dbf6cfdafbdd0f0933eab223bf2682024a7c33406d93f6f686b4c226a69b9c"
+name = "mimic-bench/fn-workday-intl"
+digest = "sha256:a77e002871e3df93f6ba6de30b754e44714f4e4ed75e4523001d30b6120efef3"
 
 [[tasks]]
-name = "oracle-bench/fn-xirr"
-digest = "sha256:72ca228ba3c723e2215322191458b0aff7546bac8129dffa1d774b31988f2052"
+name = "mimic-bench/fn-xirr"
+digest = "sha256:47a17bae4ef22599f26355602e8f57d544970d2624dfc5d3f301b18de1adf204"
 
 [[tasks]]
-name = "oracle-bench/fn-xlookup"
-digest = "sha256:dd14f2df8d18c461dd07bab4775149c822381a5ca4b85a4494fa8e81d9fade80"
+name = "mimic-bench/fn-xlookup"
+digest = "sha256:1e067da9934f8152b0be29bcbba82d4d84008cd2fa8bad0aca829c19becf4337"
 
 [[tasks]]
-name = "oracle-bench/fn-xmatch"
-digest = "sha256:0a948fb89b384f218d55f13bce0ecc7bac939f1639aca3ce855dd193b8bce575"
+name = "mimic-bench/fn-xmatch"
+digest = "sha256:ab490ea9e5f9d3aa94f8e89e881e0a6c96b20a4b5d97d670b788f6eb5df19f1a"
 
 [[tasks]]
-name = "oracle-bench/fn-xnpv"
-digest = "sha256:d6368346ebb2f98d81111dc16c2b79aed4b9dde8a28c99601d24222ce0123f5a"
+name = "mimic-bench/fn-xnpv"
+digest = "sha256:c0220510ae0eccd2d18dab0494fd910fe4e33933fe9623f31d36650b4432d55f"
 
 [[tasks]]
-name = "oracle-bench/fn-yield"
-digest = "sha256:6b967cc13de0b67099c58a2a2844b59833513b6e086ac9a9ab5e187336e3dbad"
+name = "mimic-bench/fn-yield"
+digest = "sha256:085812a479244790d415c4c35eccded4e12f75722727cfd38d05e454f712ddda"
 
 [[tasks]]
-name = "oracle-bench/fn-yielddisc"
-digest = "sha256:636cb0ec73471528e22240766d16778d9f971f86f269e54cd0f1fe5e30258e81"
+name = "mimic-bench/fn-yielddisc"
+digest = "sha256:6fa388eebaa2ef3c4cd506be94b6353bc86ac53ae1195f4d0940c5bf834206f6"
 
 [[tasks]]
-name = "oracle-bench/fn-yieldmat"
-digest = "sha256:66ea707636776fb01798b92635af43dc3ad40f5b046a92ec11c9069b3e257ae7"
+name = "mimic-bench/fn-yieldmat"
+digest = "sha256:9b7f8000b356b40b67a495457d753deea6a9f4b1bd3c80bacde7985fd3a8810e"
 
 [[tasks]]
-name = "oracle-bench/fn-z-test"
-digest = "sha256:ebb7d903773d0985a30feb94b9d0617fbc6f4e1ae29e90bd2e38cb53f388803d"
+name = "mimic-bench/fn-z-test"
+digest = "sha256:938fcdc98b19d9c94cfe0653aaca027f72f485c22d26b751738d0637a9c7ba45"

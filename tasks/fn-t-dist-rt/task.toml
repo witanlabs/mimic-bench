@@ -2,7 +2,7 @@ schema_version = "1.3"
 artifacts = []
 
 [task]
-name = "oracle-bench/fn-t-dist-rt"
+name = "mimic-bench/fn-t-dist-rt"
 description = "Infer and implement the Excel-compatible T.DIST.RT function with a runtime-configured oracle query budget."
 authors = [{ name = "Nuno" }]
 keywords = ["oracle", "spec-inference", "jsonl", "excel-function"]
