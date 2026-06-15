@@ -1,0 +1,15 @@
+[dataset]
+name = "oracle-bench/mvp"
+description = "MVP Harbor dataset for anonymous oracle-backed operator inference."
+keywords = [ "oracle", "spec-inference", "terminal", "coding-agents",]
+[[dataset.authors]]
+name = "Nuno"
+
+
+[[tasks]]
+name = "oracle-bench/op001-k016"
+digest = "sha256:84b0854fb6fafb79b056e4b36aa00a62cc3c876197d6e1244b72a7a48646c48a"
+
+[[tasks]]
+name = "oracle-bench/op002-k016"
+digest = "sha256:80ccd308d69ce466a32ccc3018ae7f1081a1efa70568f8d1bef2c3be8596f7f5"

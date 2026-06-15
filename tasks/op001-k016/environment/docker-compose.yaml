@@ -1,0 +1,23 @@
+services:
+  main:
+    depends_on:
+      oracle-service:
+        condition: service_healthy
+
+  oracle-service:
+    build:
+      context: ..
+      dockerfile: environment/oracle-service/Dockerfile
+    expose:
+      - "8000"
+    environment:
+      QUERY_BUDGET: "16"
+      QUERY_LOG: "/var/log/oracle/queries.jsonl"
+      WITAN_API_URL: "${WITAN_API_URL}"
+      WITAN_API_KEY: "${WITAN_API_KEY}"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=2).read()"]
+      interval: 2s
+      timeout: 5s
+      retries: 15
+      start_period: 2s
