@@ -14,13 +14,13 @@ The benchmark uses the [Harbor framework](https://harborframework.com/) for task
 
 ## Results
 
-Temporary baseline, from an interrupted run. This is included only as a provisional reference point; it was run before the current 30 minute timeout setting and before the corpus was reduced to `fn-*` tasks only.
+Current baseline over the checked-in `fn-*` corpus, run with a rollout query budget of 256 and concurrency 10.
 
 | agent | model | effort | timeout | accuracy |
 |---|---|---:|---:|---:|
-| Codex | gpt-5.5 | high | 10m | 29.5% |
+| Codex | gpt-5.5 | high | 30m | 49.1% |
 
-Accuracy is exact task success on scored tasks: 13 solved out of 44 scored trials. The interrupted job reached 49 of 108 scheduled trials before being stopped, with 59 trials still pending.
+Accuracy is exact task success: 52 solved out of 106 tasks. The same run had one timeout and a mean dense reward of 0.863, where dense reward is the held-out case match rate used for partial-credit diagnostics.
 
 ## What It Measures
 
