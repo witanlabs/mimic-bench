@@ -1,0 +1,15 @@
+{"args":["\"1:\"&ROWS({\"a\";\"b\";\"a\";\"c\";\"b\";\"d\"})"],"case_id":"c001"}
+{"args":["\"1:\"&ROWS({\"a\";\"b\";\"a\";\"c\";\"b\";\"d\"})"],"case_id":"c002"}
+{"args":["\"R[+1]C[-1]\"","FALSE"],"case_id":"c003"}
+{"args":["\"1\""],"case_id":"c004"}
+{"args":["\"A\""],"case_id":"c005"}
+{"args":["\"1:A\""],"case_id":"c006"}
+{"args":["\"A:1\""],"case_id":"c007"}
+{"args":["\"XYZ\""],"case_id":"c008"}
+{"args":["\"\""],"case_id":"c009"}
+{"args":["\"not_a_reference\""],"case_id":"c010"}
+{"args":["1"],"case_id":"c011"}
+{"args":["#VALUE!"],"case_id":"c012"}
+{"args":["TRUE"],"case_id":"c013"}
+{"args":["{1,2;3,4}"],"case_id":"c014"}
+{"args":["0","0","0"],"case_id":"c015"}

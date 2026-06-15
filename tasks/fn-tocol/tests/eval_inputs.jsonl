@@ -1,0 +1,15 @@
+{"args":["{1,2;3,4}"],"case_id":"c001"}
+{"args":["{#N/A;#N/A}","2"],"case_id":"c002"}
+{"args":["{#N/A;#N/A}","2"],"case_id":"formula2_tocol_all_errors_ignored_returns_calc"}
+{"args":["{\"apple\",100;\"banana\",200}"],"case_id":"c004"}
+{"args":["{1;2}","0"],"case_id":"c005"}
+{"args":["{\"apple\",100;\"banana\",200}"],"case_id":"formula2_tocol_row_major_flatten"}
+{"args":["{1,2;3,4}","0","FALSE"],"case_id":"c007"}
+{"args":["{1,#N/A;\"\",4}","2"],"case_id":"c008"}
+{"args":["{1,2;3,4}","3"],"case_id":"c009"}
+{"args":["#VALUE!"],"case_id":"c010"}
+{"args":["\"\""],"case_id":"c011"}
+{"args":["TRUE"],"case_id":"c012"}
+{"args":["0","0","0","0"],"case_id":"c013"}
+{"args":["{1,2,3;4,5,6}","1","TRUE"],"case_id":"c014"}
+{"args":["{1,2,3;4,5,6}","0","TRUE"],"case_id":"c015"}

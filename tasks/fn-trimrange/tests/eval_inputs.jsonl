@@ -1,0 +1,16 @@
+{"args":["42"],"case_id":"c001"}
+{"args":["\"hello\""],"case_id":"c002"}
+{"args":["#VALUE!"],"case_id":"c003"}
+{"args":["42"],"case_id":"formula2_trimrange_inline_scalar_number"}
+{"args":["\"hello\""],"case_id":"formula2_trimrange_inline_scalar_text"}
+{"args":["#VALUE!"],"case_id":"formula2_trimrange_scalar_error_arg_propagates"}
+{"args":["{1,2;3,4}"],"case_id":"c007"}
+{"args":["42"],"case_id":"c008"}
+{"args":["{1,2;3,4}"],"case_id":"formula2_trimrange_no_trim_needed"}
+{"args":["42"],"case_id":"formula2_trimrange_single_value_cell"}
+{"args":["{\"\",\"\";\"\",1}","3","3"],"case_id":"c011"}
+{"args":["\"\""],"case_id":"c012"}
+{"args":["TRUE"],"case_id":"c013"}
+{"args":["0","0","0","0"],"case_id":"c014"}
+{"args":["{\"\",\"\";\"\",\"\"}","3","3"],"case_id":"c015"}
+{"args":["{0,\"\";\"\",0}","1","1"],"case_id":"c016"}

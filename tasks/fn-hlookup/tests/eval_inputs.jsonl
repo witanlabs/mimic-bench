@@ -1,0 +1,29 @@
+{"args":["7","{5,7,9;50,70,90}","2","TRUE"],"case_id":"c001"}
+{"args":["2","{0,1,2,3}","1"],"case_id":"c002"}
+{"args":["#DIV/0!","{1,2}","1"],"case_id":"c003"}
+{"args":["\"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"","{{\"A\"}}","1"],"case_id":"c004"}
+{"args":["\"value\"","1","1"],"case_id":"c005"}
+{"args":["\"value\"","TRUE","1"],"case_id":"c006"}
+{"args":["1","{1,2}","0","FALSE"],"case_id":"c007"}
+{"args":["7","{5,7,9}","1.9"],"case_id":"c008"}
+{"args":["1","#REF!","2","FALSE"],"case_id":"c009"}
+{"args":["7","{5,7,9;50,70,90}","2","TRUE"],"case_id":"formula_hlookup_approximate_numeric_result"}
+{"args":["\"app*\"","{\"apple\",\"banana\",\"carrot\",\"cherry\",\"Apple Pie\",\"BANANA\";10,20,30,40,50,60}","2","FALSE"],"case_id":"c011"}
+{"args":["\"b?nana\"","{\"apple\",\"banana\",\"carrot\",\"cherry\",\"Apple Pie\",\"BANANA\";10,20,30,40,50,60}","2","FALSE"],"case_id":"c012"}
+{"args":["\"APP*\"","{\"apple\",\"banana\",\"carrot\",\"cherry\",\"Apple Pie\",\"BANANA\";10,20,30,40,50,60}","2","FALSE"],"case_id":"c013"}
+{"args":["\"a*\"","{\"apple\",\"banana\",\"carrot\",\"cherry\",\"Apple Pie\",\"BANANA\";10,20,30,40,50,60}","2","FALSE"],"case_id":"c014"}
+{"args":["\"carrot\"","{\"apple\",\"banana\",\"carrot\",\"cherry\",\"Apple Pie\",\"BANANA\";10,20,30,40,50,60}","2","FALSE"],"case_id":"c015"}
+{"args":["\"xyz*\"","{\"apple\",\"banana\",\"carrot\",\"cherry\",\"Apple Pie\",\"BANANA\";10,20,30,40,50,60}","2","FALSE"],"case_id":"c016"}
+{"args":["\"a~*b\"","{\"a*b\",\"a?b\",\"a~b\";100,110,120}","2","FALSE"],"case_id":"c017"}
+{"args":["\"a~?b\"","{\"a*b\",\"a?b\",\"a~b\";100,110,120}","2","FALSE"],"case_id":"c018"}
+{"args":["\"a~~b\"","{\"a*b\",\"a?b\",\"a~b\";100,110,120}","2","FALSE"],"case_id":"c019"}
+{"args":["1","{1,2,3;\"a\",\"b\",\"c\"}","2","FALSE"],"case_id":"c020"}
+{"args":["4","{1,2,3;\"a\",\"b\",\"c\"}","2","TRUE"],"case_id":"c021"}
+{"args":["1","{1,2,3}","2","FALSE"],"case_id":"c022"}
+{"args":["#VALUE!","#VALUE!","#VALUE!"],"case_id":"c023"}
+{"args":["\"\"","\"\"","\"\""],"case_id":"c024"}
+{"args":["TRUE","TRUE","TRUE"],"case_id":"c025"}
+{"args":["{1,2;3,4}","0","0"],"case_id":"c026"}
+{"args":["0","0","0","0","0"],"case_id":"c027"}
+{"args":["\"b\"","{\"a\",\"b\",\"b\";1,2,3}","2","FALSE"],"case_id":"c028"}
+{"args":["2","{3,2,1;\"c\",\"b\",\"a\"}","2","TRUE"],"case_id":"c029"}

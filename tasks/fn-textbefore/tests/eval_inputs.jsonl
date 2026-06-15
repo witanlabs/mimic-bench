@@ -1,0 +1,33 @@
+{"args":["\"a-b-c-d\"","\"-\"","-2"],"case_id":"c001"}
+{"args":["\"helloXworld\"","\"x\"","1","1"],"case_id":"c002"}
+{"args":["\"hello\"","\"x\"","1","0","1"],"case_id":"c003"}
+{"args":["\"hello\"","\"x\"","1","0","0","\"not found\""],"case_id":"c004"}
+{"args":["\"hello-world\"","\"-\""],"case_id":"c005"}
+{"args":["\"hello-world-foo\"","\"-\"","2"],"case_id":"c006"}
+{"args":["\"hello-world-foo\"","\"-\"","-1"],"case_id":"c007"}
+{"args":["\"a-b-c-d\"","\"-\"","-2"],"case_id":"c008"}
+{"args":["\"helloXworld\"","\"x\"","1","1"],"case_id":"c009"}
+{"args":["\"hello\"","\"x\""],"case_id":"c010"}
+{"args":["\"hello\"","\"x\"","1","0","0","\"not found\""],"case_id":"c011"}
+{"args":["\"hello\"","\"\""],"case_id":"c012"}
+{"args":["\"hello\"","\"x\"","1","0","1"],"case_id":"c013"}
+{"args":["\"hello-world\"","\"-\"","0"],"case_id":"c014"}
+{"args":["\"hello-world\"","\"-\"","5"],"case_id":"c015"}
+{"args":["\"hello\"","\"x\"","-1","0","1"],"case_id":"c016"}
+{"args":["\"a-b\"","\"-\"","","1"],"case_id":"c017"}
+{"args":["\"helloXworld\"","\"x\"","1","1"],"case_id":"formula_textbefore_case_insensitive"}
+{"args":["\"hello\"","\"x\"","1","0","0","\"not found\""],"case_id":"formula_textbefore_if_not_found"}
+{"args":["\"hello\"","\"x\"","1","0","1"],"case_id":"formula_textbefore_match_end"}
+{"args":["\"a-b-c-d\"","\"-\"","-2"],"case_id":"formula_textbefore_negative_instance"}
+{"args":["\"Hello World\"","\" \""],"case_id":"c022"}
+{"args":["\"Hello World\"","\" \""],"case_id":"c023"}
+{"args":["\"abc\"","\",\""],"case_id":"c024"}
+{"args":["\"a,b,c\"","\",\"","-1"],"case_id":"c025"}
+{"args":["\"a,b,c\"","\",\"","1","1","1","\"missing\""],"case_id":"c026"}
+{"args":["#VALUE!","#VALUE!"],"case_id":"c027"}
+{"args":["\"\"","\"\""],"case_id":"c028"}
+{"args":["TRUE","TRUE"],"case_id":"c029"}
+{"args":["{1,2;3,4}","0"],"case_id":"c030"}
+{"args":["0","0","0","0","0","0","0"],"case_id":"c031"}
+{"args":["\"a--b--c\"","\"--\"","2"],"case_id":"c032"}
+{"args":["\"abc\"","\"\"","1"],"case_id":"c033"}

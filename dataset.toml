@@ -7,9 +7,425 @@ name = "Nuno"
 
 
 [[tasks]]
-name = "oracle-bench/op001-k016"
-digest = "sha256:84b0854fb6fafb79b056e4b36aa00a62cc3c876197d6e1244b72a7a48646c48a"
+name = "oracle-bench/fn-accrint"
+digest = "sha256:f7eadab55c5986056d96a7ad2690bf198c0242d412c588147ca9702494b632d5"
 
 [[tasks]]
-name = "oracle-bench/op002-k016"
-digest = "sha256:80ccd308d69ce466a32ccc3018ae7f1081a1efa70568f8d1bef2c3be8596f7f5"
+name = "oracle-bench/fn-accrintm"
+digest = "sha256:c03190b4e5d88ba072bdbe8f542e5de91f813fe76701f73455393eeb553502e0"
+
+[[tasks]]
+name = "oracle-bench/fn-aggregate"
+digest = "sha256:7697c85b129281d0b22dd3ea53ca3d8ebe185f228b601da6321ae8039382c763"
+
+[[tasks]]
+name = "oracle-bench/fn-amordegrc"
+digest = "sha256:80ed3545279a73e8090d5dc6eb9c7b2e8d257ee47aef913bcd846701e9540ce5"
+
+[[tasks]]
+name = "oracle-bench/fn-amorlinc"
+digest = "sha256:3a9a4a33656e4c35b2973ce848c2ead60124b53c3d433dfbd418e2e739e17b49"
+
+[[tasks]]
+name = "oracle-bench/fn-averageif"
+digest = "sha256:294a147359d2d786dad2b466e4a5eab6329e4fcda25211ae9eea69bb1e4fb2c3"
+
+[[tasks]]
+name = "oracle-bench/fn-averageifs"
+digest = "sha256:ee2e90e2461597182cf670d086be731feb6d5e57557a0449fe4bf1c6d8389912"
+
+[[tasks]]
+name = "oracle-bench/fn-besselj"
+digest = "sha256:67860d48271f9981f4516ec73dab0787f8f91da80d0175a18eb9146e0775542b"
+
+[[tasks]]
+name = "oracle-bench/fn-besselk"
+digest = "sha256:0295d2cc65556ff4db559df32cfc04c3fb553ac8361e24831567de02987c5ace"
+
+[[tasks]]
+name = "oracle-bench/fn-beta-dist"
+digest = "sha256:9df4329fbb27cdcd157de6ba1940b036e1f7e4d513cd7ed190f03c3dec75df96"
+
+[[tasks]]
+name = "oracle-bench/fn-beta-inv"
+digest = "sha256:3fa07af81f7bf995f1a874cbef6125dc994d119a18175e5662f6c8f02946aa73"
+
+[[tasks]]
+name = "oracle-bench/fn-chisq-dist"
+digest = "sha256:42bfa9ec2860330600ee141582c42b71c150def92e72de449bcf801c33c25858"
+
+[[tasks]]
+name = "oracle-bench/fn-chisq-inv"
+digest = "sha256:2dc723ff5841820aa2cdb473dcc33207806ca35476af946f86c56fa7dcb36da5"
+
+[[tasks]]
+name = "oracle-bench/fn-chisq-inv-rt"
+digest = "sha256:602e231df31ded8fc37f79968ba3599d3aa76184a0b87993caaf17e94a3bc256"
+
+[[tasks]]
+name = "oracle-bench/fn-chisq-test"
+digest = "sha256:3c72f319ec6a31637e746bfd324490e792d63cbe0f74831c51bd35fbf6bf5575"
+
+[[tasks]]
+name = "oracle-bench/fn-confidence-norm"
+digest = "sha256:3cc00d3ca7b2f947aee8dcf64519a500fc7992b29e30cb14646dc6d3a6542d53"
+
+[[tasks]]
+name = "oracle-bench/fn-confidence-t"
+digest = "sha256:d07457c8c99ca4445a235e6c70a82b76625c7c865d3424ed84cf804beb58f9e3"
+
+[[tasks]]
+name = "oracle-bench/fn-convert"
+digest = "sha256:13f3787f7142878337f38bc592825f2c7e3107460f0c5119ddff63cfbba03708"
+
+[[tasks]]
+name = "oracle-bench/fn-countif"
+digest = "sha256:fd2b94ba2e8046a21c221d019862249400d64e5f0faaf751001eb8675d043421"
+
+[[tasks]]
+name = "oracle-bench/fn-countifs"
+digest = "sha256:0596596a77a7c553adfff6aa173a69f3286f54bfb0e041498177e67b85de2712"
+
+[[tasks]]
+name = "oracle-bench/fn-coupdaybs"
+digest = "sha256:3b7b2f7808ac20002c112b0c3477041f4759f205d0b6a2749eca37052a4bdc00"
+
+[[tasks]]
+name = "oracle-bench/fn-coupdays"
+digest = "sha256:42bc972398363f19b6cbbb97055652d81cf381a2394502d6136669e2f46a1684"
+
+[[tasks]]
+name = "oracle-bench/fn-coupdaysnc"
+digest = "sha256:2b5b293cc0aaf9f90a7ccab54b2e0ac92ffcb068fc1e02daf83eeed7cf96ca2a"
+
+[[tasks]]
+name = "oracle-bench/fn-coupncd"
+digest = "sha256:77f0a1d3b84ca8a0e5b132f03bc57e049bb140c76dff109aed644509c1305782"
+
+[[tasks]]
+name = "oracle-bench/fn-coupnum"
+digest = "sha256:57a0785360960b675ee4c110740c595658f3527a64c8aaf97ba6bfb1deebeb0e"
+
+[[tasks]]
+name = "oracle-bench/fn-couppcd"
+digest = "sha256:7d61d0fc1d9653e5ccdaeddd249a4d423fb9e5e9d7297d176aae3498a9b31348"
+
+[[tasks]]
+name = "oracle-bench/fn-disc"
+digest = "sha256:12bc6c30a5091fc88d548aa78e1fac46ff548979fb0fa51f3643c0e2f4b6b2b7"
+
+[[tasks]]
+name = "oracle-bench/fn-duration"
+digest = "sha256:d67af22e404e7854a39bf9901eac7c0f21e8bf19be89e3a268f5c3404beb0677"
+
+[[tasks]]
+name = "oracle-bench/fn-erf"
+digest = "sha256:40660bdd650a072159506cb6ea0e3823726a12f4563f013c884a622b75f1bc7e"
+
+[[tasks]]
+name = "oracle-bench/fn-erf-precise"
+digest = "sha256:e3ca25c7990345e39ce12bda4bf370e78b242eda2880f6a0f5973116c95fba54"
+
+[[tasks]]
+name = "oracle-bench/fn-erfc-precise"
+digest = "sha256:9f6b2fe608bd5db9447790e7d87ad112c5ca5047b9f13d218bb6f2cd97bcb97f"
+
+[[tasks]]
+name = "oracle-bench/fn-f-dist"
+digest = "sha256:4fcffe4876ee348c08e83ad67952a8067ee2a746edd5a449b55fc6a6f7d680cb"
+
+[[tasks]]
+name = "oracle-bench/fn-f-dist-rt"
+digest = "sha256:05b672ed6eec1091d15e18f1810609ca8578f54746ecdd60371c1620860bed12"
+
+[[tasks]]
+name = "oracle-bench/fn-f-inv"
+digest = "sha256:fcb00301b945df76d814eaa8a0129a535aed5be7c6ea12389fe2d7003a1a1098"
+
+[[tasks]]
+name = "oracle-bench/fn-f-inv-rt"
+digest = "sha256:df44f50bddb43248825897ca3c4a974e943a2ff6d16266ff741b4d79306c439d"
+
+[[tasks]]
+name = "oracle-bench/fn-f-test"
+digest = "sha256:f68685c17e56577098b2aa4a30b055e60ed418769fed4356997c4eebee3ca9b2"
+
+[[tasks]]
+name = "oracle-bench/fn-fvschedule"
+digest = "sha256:f0b95093ff3885fa674fa3440cfe441cb246a6d9189a853bca8ea7a9f2da2c8a"
+
+[[tasks]]
+name = "oracle-bench/fn-gamma-dist"
+digest = "sha256:8343f115c10ffb71f9e2ab423377021aef35d3dbe7a8038104f1cb4a26f02039"
+
+[[tasks]]
+name = "oracle-bench/fn-gamma-inv"
+digest = "sha256:2c3b123b7ecf9b672ecf4d19567942dea4b643818742f144428b7f081552ea83"
+
+[[tasks]]
+name = "oracle-bench/fn-gauss"
+digest = "sha256:f0509e66cae08278826c7cd286aeeda9e3a288bd168b7120b0dfcf91a4b6af54"
+
+[[tasks]]
+name = "oracle-bench/fn-growth"
+digest = "sha256:9677e40a8d1076ab822e3310804f217eef3e22b927d011bde6d1c5c2f3d55e59"
+
+[[tasks]]
+name = "oracle-bench/fn-hlookup"
+digest = "sha256:f1be012fd986679364f71c9484e61f2dcd77308668987ab9ba563ef193a39b86"
+
+[[tasks]]
+name = "oracle-bench/fn-imcsc"
+digest = "sha256:5769bde0c3d34e7e316dc487cbadba2f07093663ffcadcbf38593f41e4b0728f"
+
+[[tasks]]
+name = "oracle-bench/fn-imcsch"
+digest = "sha256:c92c4918e975917a7c88143cf3c3522cee4344057ad034ec016c7d41b8af9677"
+
+[[tasks]]
+name = "oracle-bench/fn-imdiv"
+digest = "sha256:33bca45ab90901fa033ded61440f54d1e54a71cb353aff9230feec8baba84b91"
+
+[[tasks]]
+name = "oracle-bench/fn-improduct"
+digest = "sha256:44dc7aafde4adf96cb7761a226f4eeaafe910377919a01af74aaf76e24e84973"
+
+[[tasks]]
+name = "oracle-bench/fn-imsub"
+digest = "sha256:843d29b9c9bf8cf890a0ea0dcec1a2962de9e826b439904e41212d7e1660092a"
+
+[[tasks]]
+name = "oracle-bench/fn-imsum"
+digest = "sha256:fb1dcd115e577ae77621b61f6156979beb7758ec3304bd36e22875c74e5dfeaf"
+
+[[tasks]]
+name = "oracle-bench/fn-indirect"
+digest = "sha256:9540762398d712a6d64787402c478b13be3da5e531cdeb1aafeda8b819283638"
+
+[[tasks]]
+name = "oracle-bench/fn-intrate"
+digest = "sha256:8917c7370259db562b3181e4c9b2a933dfebb106bc61743c81703ee9d2db64e6"
+
+[[tasks]]
+name = "oracle-bench/fn-irr"
+digest = "sha256:39aed7778a89d035e4aa18265e1e5ba1b9da1d44d49a9aa5845f2ebb9ede20d2"
+
+[[tasks]]
+name = "oracle-bench/fn-linest"
+digest = "sha256:0d4e1d6fe1f9b633207f7c155df65c367d2829c2f9cd4ee641be6df26c1214d8"
+
+[[tasks]]
+name = "oracle-bench/fn-logest"
+digest = "sha256:c64d6bcdff3a6e5e6fe092a3e57fc080145a0a22b156e29931962827683e710a"
+
+[[tasks]]
+name = "oracle-bench/fn-lognorm-dist"
+digest = "sha256:95a3fd61b378a09503a1deaec38719716fb8ac050a78885bf015e089cd0879f1"
+
+[[tasks]]
+name = "oracle-bench/fn-lognorm-inv"
+digest = "sha256:1898ee314dc207aec34e25104b6c738eb3e1ed0c20afd3a7774d4adb0e78cbe3"
+
+[[tasks]]
+name = "oracle-bench/fn-lookup"
+digest = "sha256:3cc0a4116ac91c5e07f785b0b8c9566903fed6d13c3db541c6d522d667d190a6"
+
+[[tasks]]
+name = "oracle-bench/fn-match"
+digest = "sha256:c014ac613a303c933d319fe07dbe3e864d569b4a9ba81ce0b4ada8d782fbcb4d"
+
+[[tasks]]
+name = "oracle-bench/fn-maxifs"
+digest = "sha256:ccdbf8594886ec82aa9c775d7c12253bd16b71faa2c4cdbe57c50c199da0d4ad"
+
+[[tasks]]
+name = "oracle-bench/fn-mduration"
+digest = "sha256:9ac101b94a28b485fe5c62d74b25c1996d1a82e25c3c37b3d0f3b49e507b00fc"
+
+[[tasks]]
+name = "oracle-bench/fn-minifs"
+digest = "sha256:ec2dd47aa3127e9d6e1c3e8be20cdeb2044bdf3c176b39771670444fcf1fc083"
+
+[[tasks]]
+name = "oracle-bench/fn-mirr"
+digest = "sha256:f8545bc20733f6c934e8a4ae7ef6a3df9110bef74b6d78fe7533d2eb7e4230a7"
+
+[[tasks]]
+name = "oracle-bench/fn-networkdays-intl"
+digest = "sha256:23990dd3411ad3d349df3b537aeee35724c2295d5e261acf941d76c29f7eb9f3"
+
+[[tasks]]
+name = "oracle-bench/fn-norm-dist"
+digest = "sha256:22fa93e57f5bc2d257795fffb7db66ff2c4bad073ce37079a15053d7137d5535"
+
+[[tasks]]
+name = "oracle-bench/fn-norm-inv"
+digest = "sha256:e9a8eadd37daf1fc72d3148ea5291cfd4ee26a11d966c0ac0032ceafa358f535"
+
+[[tasks]]
+name = "oracle-bench/fn-norm-s-dist"
+digest = "sha256:ff86e4224446ecbf359ea8766736a304ef2a8940512add91ef242c6358820605"
+
+[[tasks]]
+name = "oracle-bench/fn-norm-s-inv"
+digest = "sha256:68ae9b532995a227f7f79d9e827e20736a93c41fccefb60831f8ef53ca2a3fd2"
+
+[[tasks]]
+name = "oracle-bench/fn-oddfprice"
+digest = "sha256:b829e2a55332867eae81beb55b6f903d47026311dcfee86f1e1b1cfaa6a64a1c"
+
+[[tasks]]
+name = "oracle-bench/fn-oddfyield"
+digest = "sha256:2137f08841ffc7405944e3a054de1677b9a181f9770c06e8b621dd398bf6960e"
+
+[[tasks]]
+name = "oracle-bench/fn-oddlprice"
+digest = "sha256:50d2a1686ada2779fd413389e32f3737ed1aee4f10e016357f6d4c6103039a86"
+
+[[tasks]]
+name = "oracle-bench/fn-percentrank-exc"
+digest = "sha256:b7417696e571783df4ec184d966011d64e8937aa29630db436c41044e5a345f3"
+
+[[tasks]]
+name = "oracle-bench/fn-percentrank-inc"
+digest = "sha256:7fcf99a12a0b9e576e30faf71e7941eaae647efa2e6630432ffa1a3904a2fcc9"
+
+[[tasks]]
+name = "oracle-bench/fn-price"
+digest = "sha256:94aa0881a16b5ece4d62b38c5eb4d3201d209a901a51bd24a9ee39e1af1c1690"
+
+[[tasks]]
+name = "oracle-bench/fn-pricedisc"
+digest = "sha256:0c4a050cc6b17f0e86de532f11344e0f67b7fb5cd157259357dc93897d43bb52"
+
+[[tasks]]
+name = "oracle-bench/fn-pricemat"
+digest = "sha256:a900a63053122d022ce78a9b99a6ecbb1a61e15ec50b3928d9b991f917a49a09"
+
+[[tasks]]
+name = "oracle-bench/fn-received"
+digest = "sha256:119937e502e9028a365f2462529257185aa6fb5404b01382b5e7972ebf53a567"
+
+[[tasks]]
+name = "oracle-bench/fn-regexextract"
+digest = "sha256:624bd4e38d7028ee4afa0b6bbcfe0bd5d91cd648ee42235ed7e43baa93df8bf2"
+
+[[tasks]]
+name = "oracle-bench/fn-regexreplace"
+digest = "sha256:ed2d236be27d80993166a2ba4fc0e61d843e8620dc2cdad9d38a3d634bc72be4"
+
+[[tasks]]
+name = "oracle-bench/fn-sort"
+digest = "sha256:0a50308d154e476bba4aec1efb5da51f7f83c2b973c4f311c8950e00e9349f74"
+
+[[tasks]]
+name = "oracle-bench/fn-sumif"
+digest = "sha256:4a0642e441df2e83a4b4659e4d261fb1d31fce0b85fb868370f97f520397c1ba"
+
+[[tasks]]
+name = "oracle-bench/fn-sumifs"
+digest = "sha256:c0c1f60987bdad5189ba59b984166780221249b8f8ed01009f73940d70a733d8"
+
+[[tasks]]
+name = "oracle-bench/fn-t-dist"
+digest = "sha256:ea7e16ca2c4317d7e575d6073a897082c0660539db429943b1ba55a676418eb7"
+
+[[tasks]]
+name = "oracle-bench/fn-t-dist-2t"
+digest = "sha256:94a9ca1834b3b85fe450dbbee336c93acc990dba5253922b91b7af21ad05c021"
+
+[[tasks]]
+name = "oracle-bench/fn-t-dist-rt"
+digest = "sha256:cac6246848941816b10aaa72118a09ba81565720195b52e412cbabfbcd7f3d40"
+
+[[tasks]]
+name = "oracle-bench/fn-t-inv"
+digest = "sha256:6a652bc701b08b07878c0d83e13a3d05252ad39b540a0d6ca0f881fb6ce89a3e"
+
+[[tasks]]
+name = "oracle-bench/fn-t-inv-2t"
+digest = "sha256:d3e1bd83fc0aada913c933ff5e1c8801a3b07abf0d1580e8bbbad7684c3d774f"
+
+[[tasks]]
+name = "oracle-bench/fn-t-test"
+digest = "sha256:2e8be53c1e42666eb4701142b154d042aac011a58fa6cfd576b7bce731238ac4"
+
+[[tasks]]
+name = "oracle-bench/fn-textafter"
+digest = "sha256:5e3a8e940660902399667cae209bb1ba4891c2cbe4ba5ccda2b7502539506641"
+
+[[tasks]]
+name = "oracle-bench/fn-textbefore"
+digest = "sha256:79059708210512468f64a80825e2f96c7393cc00fe8f2d3a5c75246df6dbf5e8"
+
+[[tasks]]
+name = "oracle-bench/fn-textsplit"
+digest = "sha256:e2edef875cd19c1ec55179f0b5d5d9f7f1ff8bdbe2d37e9d2479cc6e8e722737"
+
+[[tasks]]
+name = "oracle-bench/fn-tocol"
+digest = "sha256:3b2465f54f41013f75ff844ae334f17a3a41de01394c6c2a71b990a4b0e3d1e3"
+
+[[tasks]]
+name = "oracle-bench/fn-torow"
+digest = "sha256:6c5f97b2714412248ee2c703d505da8d0154b7057677302bb31d08a5ba2e6895"
+
+[[tasks]]
+name = "oracle-bench/fn-trend"
+digest = "sha256:56cf7b50dc58985009ace43ecd3fe82d0baf99feeb2ba34608fa186f621f61ba"
+
+[[tasks]]
+name = "oracle-bench/fn-trimrange"
+digest = "sha256:0ce1196b53cb7b14515cf09065d2d811c72448e23371a42133f16547761e1ca5"
+
+[[tasks]]
+name = "oracle-bench/fn-unique"
+digest = "sha256:017022d3258602a09ac41826524d15dbe0d37b9b4a4f1d77e3289183a0feb9cb"
+
+[[tasks]]
+name = "oracle-bench/fn-vdb"
+digest = "sha256:c23c7829780c977d8b0c8a32b9030e024406bbdcb215eb107627619b87f634e3"
+
+[[tasks]]
+name = "oracle-bench/fn-vlookup"
+digest = "sha256:21737142663203c0db1c57c83d7a4c29060b5e6ddac2739c8baa9203b1134067"
+
+[[tasks]]
+name = "oracle-bench/fn-workday"
+digest = "sha256:2c09666b1853a8c31ecc7263af0726f1cd98f2ca49f5551b3cc7c478d7ef9eba"
+
+[[tasks]]
+name = "oracle-bench/fn-workday-intl"
+digest = "sha256:d6dbf6cfdafbdd0f0933eab223bf2682024a7c33406d93f6f686b4c226a69b9c"
+
+[[tasks]]
+name = "oracle-bench/fn-xirr"
+digest = "sha256:72ca228ba3c723e2215322191458b0aff7546bac8129dffa1d774b31988f2052"
+
+[[tasks]]
+name = "oracle-bench/fn-xlookup"
+digest = "sha256:dd14f2df8d18c461dd07bab4775149c822381a5ca4b85a4494fa8e81d9fade80"
+
+[[tasks]]
+name = "oracle-bench/fn-xmatch"
+digest = "sha256:0a948fb89b384f218d55f13bce0ecc7bac939f1639aca3ce855dd193b8bce575"
+
+[[tasks]]
+name = "oracle-bench/fn-xnpv"
+digest = "sha256:d6368346ebb2f98d81111dc16c2b79aed4b9dde8a28c99601d24222ce0123f5a"
+
+[[tasks]]
+name = "oracle-bench/fn-yield"
+digest = "sha256:6b967cc13de0b67099c58a2a2844b59833513b6e086ac9a9ab5e187336e3dbad"
+
+[[tasks]]
+name = "oracle-bench/fn-yielddisc"
+digest = "sha256:636cb0ec73471528e22240766d16778d9f971f86f269e54cd0f1fe5e30258e81"
+
+[[tasks]]
+name = "oracle-bench/fn-yieldmat"
+digest = "sha256:66ea707636776fb01798b92635af43dc3ad40f5b046a92ec11c9069b3e257ae7"
+
+[[tasks]]
+name = "oracle-bench/fn-z-test"
+digest = "sha256:ebb7d903773d0985a30feb94b9d0617fbc6f4e1ae29e90bd2e38cb53f388803d"

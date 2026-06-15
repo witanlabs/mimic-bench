@@ -1,0 +1,37 @@
+{"args":["2","{0;1;2;3}","1"],"case_id":"c001"}
+{"args":["1","#REF!","2","FALSE"],"case_id":"c002"}
+{"args":["1","#REF!","2","TRUE"],"case_id":"c003"}
+{"args":["1","1","1"],"case_id":"c004"}
+{"args":["1","TRUE","1"],"case_id":"c005"}
+{"args":["4","{1,2; 3,2; 5,3; 7,4}","2"],"case_id":"c006"}
+{"args":["\"Central\"","{\"East\",\"A\";\"Central\",\"B\";\"West\",\"C\";\"South\",\"D\"}","2","FALSE"],"case_id":"c007"}
+{"args":["\"app*\"","{\"apple\",10;\"banana\",20;\"carrot\",30;\"cherry\",40;\"Apple Pie\",50;\"BANANA\",60}","2","FALSE"],"case_id":"c008"}
+{"args":["\"b?nana\"","{\"apple\",10;\"banana\",20;\"carrot\",30;\"cherry\",40;\"Apple Pie\",50;\"BANANA\",60}","2","FALSE"],"case_id":"c009"}
+{"args":["\"?pp*\"","{\"apple\",10;\"banana\",20;\"carrot\",30;\"cherry\",40;\"Apple Pie\",50;\"BANANA\",60}","2","FALSE"],"case_id":"c010"}
+{"args":["\"c?r?o?\"","{\"apple\",10;\"banana\",20;\"carrot\",30;\"cherry\",40;\"Apple Pie\",50;\"BANANA\",60}","2","FALSE"],"case_id":"c011"}
+{"args":["\"APP*\"","{\"apple\",10;\"banana\",20;\"carrot\",30;\"cherry\",40;\"Apple Pie\",50;\"BANANA\",60}","2","FALSE"],"case_id":"c012"}
+{"args":["\"apple*\"","{\"apple\",10;\"banana\",20;\"carrot\",30;\"cherry\",40;\"Apple Pie\",50;\"BANANA\",60}","2","FALSE"],"case_id":"c013"}
+{"args":["\"appl?\"","{\"apple\",10;\"banana\",20;\"carrot\",30;\"cherry\",40;\"Apple Pie\",50;\"BANANA\",60}","2","FALSE"],"case_id":"c014"}
+{"args":["\"*\"","{\"apple\",10;\"banana\",20;\"carrot\",30;\"cherry\",40;\"Apple Pie\",50;\"BANANA\",60}","2","FALSE"],"case_id":"c015"}
+{"args":["\"banana\"","{\"apple\",10;\"banana\",20;\"carrot\",30;\"cherry\",40;\"Apple Pie\",50;\"BANANA\",60}","2","FALSE"],"case_id":"c016"}
+{"args":["\"xyz*\"","{\"apple\",10;\"banana\",20;\"carrot\",30;\"cherry\",40;\"Apple Pie\",50;\"BANANA\",60}","2","FALSE"],"case_id":"c017"}
+{"args":["\"a*\"","{\"apple\",\"first\";\"apricot\",\"second\";\"avocado\",\"third\"}","2","FALSE"],"case_id":"c018"}
+{"args":["\"app*\"","{100,\"num\";TRUE,\"bool\";\"apple\",\"text\"}","2","FALSE"],"case_id":"c019"}
+{"args":["\"a~*b\"","{\"a*b\",100;\"a?b\",110;\"a~b\",120;\"ab\",130}","2","FALSE"],"case_id":"c020"}
+{"args":["\"a~?b\"","{\"a*b\",100;\"a?b\",110;\"a~b\",120;\"ab\",130}","2","FALSE"],"case_id":"c021"}
+{"args":["\"a~~b\"","{\"a*b\",100;\"a?b\",110;\"a~b\",120;\"ab\",130}","2","FALSE"],"case_id":"c022"}
+{"args":["\"~a\"","{\"a\",500;\"~a\",600}","2","FALSE"],"case_id":"c023"}
+{"args":["\"~~a\"","{\"a\",500;\"~a\",600}","2","FALSE"],"case_id":"c024"}
+{"args":["\"test~\"","{\"test\",\"no_tilde\";\"test~\",\"with_tilde\"}","2","FALSE"],"case_id":"c025"}
+{"args":["\"a~~~\"","{\"a~\",\"tilde_end\"}","2","FALSE"],"case_id":"c026"}
+{"args":["\"Central\"","{\"East\",\"A\";\"Central\",\"B\";\"West\",\"C\";\"South\",\"D\"}","2","FALSE"],"case_id":"formula_vlookup_exact_text_result"}
+{"args":["1","{1,\"a\";2,\"b\"}","2","FALSE"],"case_id":"c028"}
+{"args":["3","{1,\"a\";2,\"b\"}","2","TRUE"],"case_id":"c029"}
+{"args":["1","{1}","2","FALSE"],"case_id":"c030"}
+{"args":["#VALUE!","#VALUE!","#VALUE!"],"case_id":"c031"}
+{"args":["\"\"","\"\"","\"\""],"case_id":"c032"}
+{"args":["TRUE","TRUE","TRUE"],"case_id":"c033"}
+{"args":["{1,2;3,4}","0","0"],"case_id":"c034"}
+{"args":["0","0","0","0","0"],"case_id":"c035"}
+{"args":["2","{1,\"a\";2,\"b1\";2,\"b2\";3,\"c\"}","2","FALSE"],"case_id":"c036"}
+{"args":["0","{1,\"a\";2,\"b\";3,\"c\"}","2","TRUE"],"case_id":"c037"}

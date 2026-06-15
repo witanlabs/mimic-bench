@@ -1,0 +1,16 @@
+{"args":["1.959999998","60"],"case_id":"c001"}
+{"args":["1.0","10"],"case_id":"c002"}
+{"args":["0","10"],"case_id":"c003"}
+{"args":["-1.0","10"],"case_id":"c004"}
+{"args":["1","0"],"case_id":"c005"}
+{"args":["1.959999998","60"],"case_id":"formula_t_dist_right_tail"}
+{"args":["0","1"],"case_id":"c007"}
+{"args":["1","1"],"case_id":"c008"}
+{"args":["1","0"],"case_id":"c009"}
+{"args":["#VALUE!","#VALUE!"],"case_id":"c010"}
+{"args":["\"\"","\"\""],"case_id":"c011"}
+{"args":["TRUE","TRUE"],"case_id":"c012"}
+{"args":["{1,2;3,4}","0"],"case_id":"c013"}
+{"args":["0","0","0"],"case_id":"c014"}
+{"args":["-10","2.5"],"case_id":"c015"}
+{"args":["10","2.5"],"case_id":"c016"}

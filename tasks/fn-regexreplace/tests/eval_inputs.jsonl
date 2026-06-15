@@ -1,0 +1,31 @@
+{"args":["\"John Smith\"","\"(\\w+) (\\w+)\"","\"$2, $1\""],"case_id":"c001"}
+{"args":["\"a1b2c3\"","\"\\d\"","\"X\"","-1"],"case_id":"c002"}
+{"args":["\"a1b2c3\"","\"\\d\"","\"X\"","-4"],"case_id":"c003"}
+{"args":["\"hello 123 world 456\"","\"\\d+\"","\"XXX\""],"case_id":"c004"}
+{"args":["\"hello 123 world 456\"","\"\\d+\"","\"XXX\"","0"],"case_id":"c005"}
+{"args":["\"hello 123 world 456\"","\"\\d+\"","\"XXX\"","1"],"case_id":"c006"}
+{"args":["\"hello 123 world 456\"","\"\\d+\"","\"XXX\"","2"],"case_id":"c007"}
+{"args":["\"John Smith\"","\"(\\w+) (\\w+)\"","\"$2, $1\""],"case_id":"c008"}
+{"args":["\"hello 123 world 456\"","\"(\\d+)\"","\"$1!\"","1"],"case_id":"c009"}
+{"args":["\"Hello hello\"","\"hello\"","\"X\"","0","0"],"case_id":"c010"}
+{"args":["\"Hello hello\"","\"hello\"","\"X\"","0","1"],"case_id":"c011"}
+{"args":["\"hello world\"","\"\\d+\"","\"X\""],"case_id":"c012"}
+{"args":["\"aa\"","\"(a)\\1\"","\"X\""],"case_id":"c013"}
+{"args":["\"a1b2c3\"","\"\\d\"","\"X\"","-1"],"case_id":"c014"}
+{"args":["\"a1b2c3\"","\"\\d\"","\"X\"","-2"],"case_id":"c015"}
+{"args":["\"a1b2c3\"","\"\\d\"","\"X\"","-3"],"case_id":"c016"}
+{"args":["\"a1b2c3\"","\"\\d\"","\"X\"","-4"],"case_id":"c017"}
+{"args":["\"John Smith\"","\"(\\w+) (\\w+)\"","\"$2, $1\""],"case_id":"formula_regexreplace_backreference"}
+{"args":["\"a1b2c3\"","\"\\d\"","\"X\"","-1"],"case_id":"formula_regexreplace_negative_occurrence_last"}
+{"args":["\"a1b2c3\"","\"\\d\"","\"X\"","-4"],"case_id":"formula_regexreplace_negative_occurrence_out_of_range"}
+{"args":["\"hello123\"","\"[0-9]+\"","\"XYZ\""],"case_id":"c021"}
+{"args":["\"abc123\"","\"\\d+\"","\"#\""],"case_id":"c022"}
+{"args":["\"abc\"","\"\\d+\"","\"#\""],"case_id":"c023"}
+{"args":["\"abc123def456\"","\"\\d+\"","\"#\"","2"],"case_id":"c024"}
+{"args":["#VALUE!","#VALUE!","#VALUE!"],"case_id":"c025"}
+{"args":["\"\"","\"\"","\"\""],"case_id":"c026"}
+{"args":["TRUE","TRUE","TRUE"],"case_id":"c027"}
+{"args":["{1,2;3,4}","0","0"],"case_id":"c028"}
+{"args":["0","0","0","0","0","0"],"case_id":"c029"}
+{"args":["\"abc123def456\"","\"(\\d+)\"","\"[$1]\"","0"],"case_id":"c030"}
+{"args":["\"abc123def456\"","\"(\\d+)\"","\"[$1]\"","-1"],"case_id":"c031"}

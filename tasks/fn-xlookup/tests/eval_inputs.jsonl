@@ -1,0 +1,23 @@
+{"args":["1","{1,2,3}","{\"a\",\"b\",\"c\"}"],"case_id":"c001"}
+{"args":["\"banana\"","{\"apple\";\"banana\";\"banana\"}","{100,\"x\";200,\"y\";300,\"z\"}"],"case_id":"c002"}
+{"args":["\"mango\"","{\"apple\";\"banana\"}","{10;20}","\"not found\""],"case_id":"c003"}
+{"args":["\"ba*\"","{\"apple\";\"banana\";\"carrot\"}","{10,\"x\";20,\"y\";30,\"z\"}","","2"],"case_id":"c004"}
+{"args":["\"banana\"","{\"apple\";\"banana\";\"banana\";\"carrot\"}","{10,\"x\";20,\"y\";30,\"z\";40,\"w\"}","","0","-1"],"case_id":"c005"}
+{"args":["25","{10;20;30;40;50}","{\"ten\";\"twenty\";\"thirty\";\"forty\";\"fifty\"}","","-1"],"case_id":"c006"}
+{"args":["\"b\"","{\"a\";\"b\";\"c\"}","{1;2;3}"],"case_id":"c007"}
+{"args":["\"zzz\"","{\"a\";\"b\"}","{1;2}","\"missing\""],"case_id":"c008"}
+{"args":["\"banana\"","{\"apple\";\"banana\";\"banana\";\"carrot\"}","{10,\"x\";20,\"y\";30,\"z\";40,\"w\"}","","0","-1"],"case_id":"formula2_xlookup_reverse_search_row_return"}
+{"args":["\"banana\"","{\"apple\";\"banana\";\"banana\"}","{100,\"x\";200,\"y\";300,\"z\"}"],"case_id":"formula2_xlookup_row_return"}
+{"args":["\"ba*\"","{\"apple\";\"banana\";\"carrot\"}","{10,\"x\";20,\"y\";30,\"z\"}","","2"],"case_id":"formula2_xlookup_wildcard_row_return"}
+{"args":["25","{10;20;30;40;50}","{\"ten\";\"twenty\";\"thirty\";\"forty\";\"fifty\"}","","-1"],"case_id":"formula_xlookup_approximate_next_smaller"}
+{"args":["\"mango\"","{\"apple\";\"banana\"}","{10;20}","\"not found\""],"case_id":"formula_xlookup_if_not_found"}
+{"args":["2","{1;2;3}","{\"a\";\"b\";\"c\"}"],"case_id":"c014"}
+{"args":["4","{1;2;3}","{\"a\";\"b\";\"c\"}","\"missing\""],"case_id":"c015"}
+{"args":["\"a*\"","{\"aa\";\"bb\"}","{1;2}","\"missing\"","2"],"case_id":"c016"}
+{"args":["#VALUE!","#VALUE!","#VALUE!"],"case_id":"c017"}
+{"args":["\"\"","\"\"","\"\""],"case_id":"c018"}
+{"args":["TRUE","TRUE","TRUE"],"case_id":"c019"}
+{"args":["{1,2;3,4}","0","0"],"case_id":"c020"}
+{"args":["0","0","0","0","0","0","0"],"case_id":"c021"}
+{"args":["2","{1;2;2;3}","{\"a\";\"b1\";\"b2\";\"c\"}","\"missing\"","0","-1"],"case_id":"c022"}
+{"args":["\"?\"","{\"?\";\"x\"}","{1;2}","\"missing\"","0"],"case_id":"c023"}

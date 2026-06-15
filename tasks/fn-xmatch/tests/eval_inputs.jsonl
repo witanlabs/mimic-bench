@@ -1,0 +1,17 @@
+{"args":["\"che*\"","{\"apple\";\"banana\";\"cherry\"}","2"],"case_id":"c001"}
+{"args":["\"banana\"","{\"apple\";\"banana\";\"banana\";\"cherry\"}","0","-1"],"case_id":"c002"}
+{"args":["25","{10;20;30;40;50}","-1"],"case_id":"c003"}
+{"args":["\"b\"","{\"a\";\"b\";\"c\"}"],"case_id":"c004"}
+{"args":["25","{10;20;30;40;50}","-1"],"case_id":"formula_xmatch_next_smaller"}
+{"args":["\"banana\"","{\"apple\";\"banana\";\"banana\";\"cherry\"}","0","-1"],"case_id":"formula_xmatch_reverse_search"}
+{"args":["\"che*\"","{\"apple\";\"banana\";\"cherry\"}","2"],"case_id":"formula_xmatch_wildcard"}
+{"args":["2","{1;2;3}"],"case_id":"c008"}
+{"args":["4","{1;2;3}","-1"],"case_id":"c009"}
+{"args":["\"a*\"","{\"aa\";\"bb\"}","2"],"case_id":"c010"}
+{"args":["#VALUE!","#VALUE!"],"case_id":"c011"}
+{"args":["\"\"","\"\""],"case_id":"c012"}
+{"args":["TRUE","TRUE"],"case_id":"c013"}
+{"args":["{1,2;3,4}","0"],"case_id":"c014"}
+{"args":["0","0","0","0","0"],"case_id":"c015"}
+{"args":["2","{1;2;2;3}","0","-1"],"case_id":"c016"}
+{"args":["\"?\"","{\"?\";\"x\"}","0"],"case_id":"c017"}

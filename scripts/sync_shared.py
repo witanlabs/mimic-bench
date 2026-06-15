@@ -9,6 +9,13 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_TEMPLATE_TASK = REPO_ROOT / "template-task"
 DEFAULT_TASKS_DIR = REPO_ROOT / "tasks"
+STATIC_TEMPLATE_FILES = [
+    Path("environment/Dockerfile"),
+    Path("environment/docker-compose.yaml"),
+    Path("environment/oracle-service/Dockerfile"),
+    Path("tests/Dockerfile"),
+    Path("tests/test.sh"),
+]
 
 
 def shared_paths(root: Path) -> list[Path]:
@@ -17,6 +24,12 @@ def shared_paths(root: Path) -> list[Path]:
 
 def shared_files(root: Path) -> list[Path]:
     return [path for path in shared_paths(root) if path.is_file()]
+
+
+def template_owned_files(root: Path) -> list[Path]:
+    files = shared_files(root)
+    files.extend(root / relative for relative in STATIC_TEMPLATE_FILES)
+    return sorted(files)
 
 
 def task_dirs(tasks_dir: Path) -> list[Path]:
@@ -39,8 +52,18 @@ def remove_shared_paths(task_dir: Path) -> int:
     return removed
 
 
+def remove_static_paths(task_dir: Path) -> int:
+    removed = 0
+    for relative_path in STATIC_TEMPLATE_FILES:
+        path = task_dir / relative_path
+        if path.exists() or path.is_symlink():
+            path.unlink()
+            removed += 1
+    return removed
+
+
 def sync_task(template_task: Path, task_dir: Path, template_files: list[Path]) -> tuple[int, int]:
-    removed = remove_shared_paths(task_dir)
+    removed = remove_shared_paths(task_dir) + remove_static_paths(task_dir)
     copied = 0
     for source in template_files:
         relative_path = source.relative_to(template_task)
@@ -53,7 +76,7 @@ def sync_task(template_task: Path, task_dir: Path, template_files: list[Path]) -
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Sync template-task shared_* files into every task under tasks/."
+        description="Sync template-owned helper files into every task under tasks/."
     )
     parser.add_argument("--template-task", type=Path, default=DEFAULT_TEMPLATE_TASK)
     parser.add_argument("--tasks-dir", type=Path, default=DEFAULT_TASKS_DIR)
@@ -61,13 +84,15 @@ def main() -> None:
 
     template_task = args.template_task.resolve()
     tasks_dir = args.tasks_dir.resolve()
-    template_files = shared_files(template_task)
+    template_files = template_owned_files(template_task)
     tasks = task_dirs(tasks_dir)
 
     if not template_task.exists():
         raise SystemExit(f"missing template task: {template_task}")
-    if not template_files:
-        raise SystemExit(f"no shared_* files found under {template_task}")
+    missing_files = [path for path in template_files if not path.is_file()]
+    if missing_files:
+        missing = ", ".join(str(path.relative_to(template_task)) for path in missing_files)
+        raise SystemExit(f"missing template-owned files under {template_task}: {missing}")
     if not tasks:
         raise SystemExit(f"no task.toml-bearing tasks found under {tasks_dir}")
 
