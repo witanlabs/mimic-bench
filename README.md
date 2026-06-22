@@ -6,7 +6,7 @@ In many real engineering workflows, the human does not know every edge case up f
 
 Mimic Bench isolates that capability. Each task gives an agent a function name, accepted arities, and a queryable black-box oracle. The agent can ask the oracle for outputs on inputs it chooses during rollout, then must submit an executable CLI. A hidden verifier checks whether the submitted program matches the same trusted Excel-compatible formula engine on fixed evaluation inputs.
 
-The point is not spreadsheet knowledge by itself. Excel-compatible functions are a convenient benchmark substrate: they have many edge cases, deterministic answers, cheap oracle queries, and an exact compatibility target. The checked-in corpus currently contains 106 `fn-*` tasks and no other task families.
+The point is not spreadsheet knowledge by itself. Excel-compatible functions are a convenient benchmark substrate: they have many edge cases, deterministic answers, cheap oracle queries, and an exact compatibility target. The checked-in corpus currently contains 106 real-function `fn-*` tasks and 63 proposed-function `pfn-*` tasks.
 
 The formula engine used as the oracle is measured against Microsoft Excel on real-world workbook corpora in [xlsx-corpus-bench](https://github.com/witanlabs/xlsx-corpus-bench).
 
@@ -14,13 +14,14 @@ The benchmark uses the [Harbor framework](https://harborframework.com/) for task
 
 ## Results
 
-Current baseline over the checked-in `fn-*` corpus, run with a rollout query budget of 256 and concurrency 10.
+Current baselines use a rollout query budget of 256 and concurrency 10.
 
-| agent | model | effort | timeout | accuracy |
-|---|---|---:|---:|---:|
-| Codex | gpt-5.5 | high | 30m | 49.1% |
+| task set | agent | model | effort | timeout | accuracy |
+|---|---|---|---:|---:|---:|
+| `fn-*` | Codex | gpt-5.5 | high | 30m | 49.1% |
+| `pfn-*` | Codex | gpt-5.5 | high | 30m | 79.4% |
 
-Accuracy is exact task success: 52 solved out of 106 tasks. The same run had one timeout and a mean dense reward of 0.863, where dense reward is the held-out case match rate used for partial-credit diagnostics.
+Accuracy is exact task success. The `fn-*` run solved 52 of 106 tasks, had one timeout, and had a mean dense reward of 0.863. The `pfn-*` run solved 50 of 63 tasks, had no exceptions or runtime failures, and had a mean dense reward of 0.927. Dense reward is the held-out case match rate used for partial-credit diagnostics.
 
 ## What It Measures
 
@@ -39,9 +40,14 @@ The benchmark is intentionally strict about the contract. The correct answer is 
 
 ## Task Corpus
 
-Tasks live under `tasks/fn-*` and are listed in `dataset.toml`.
+Tasks live under `tasks/`.
 
-Each task targets one Excel-compatible function as-is. Arguments are encoded as Excel formula literals in JSON strings, and the oracle evaluates the corresponding function call against the provided arguments. Examples:
+Current task families:
+
+- `fn-*`: real Excel-compatible functions as-is. These are listed in root `dataset.toml`.
+- `pfn-*`: proposed or upcoming Excel-compatible functions that do not currently exist in public Excel. These are listed in `datasets/proposed-functions/dataset.toml`.
+
+Arguments are encoded as Excel formula literals in JSON strings, and the oracle evaluates the corresponding function call against the provided arguments. Examples:
 
 ```json
 {"args":["1"]}
@@ -50,12 +56,15 @@ Each task targets one Excel-compatible function as-is. Arguments are encoded as 
 {"args":["{1;2;3}"]}
 ```
 
-Volatile functions such as `RAND`, `RANDARRAY`, `RANDBETWEEN`, `NOW`, and `TODAY` are excluded from the corpus. Expected outputs are not stored in the repo; the verifier computes them from the oracle at grading time.
+Volatile real functions such as `RAND`, `RANDARRAY`, `RANDBETWEEN`, `NOW`, and `TODAY` are excluded from the `fn-*` corpus. Expected outputs are not stored in task eval files; the verifier computes them from the oracle at grading time.
 
 ## Layout
 
 ```text
 dataset.toml
+datasets/
+  proposed-functions/
+    dataset.toml
 pyproject.toml
 template-task/
   environment/
@@ -73,13 +82,17 @@ template-task/
     shared_oracle_runtime.py
 tasks/
   fn-*/
+  pfn-*/
     instruction.md
     task.toml
     environment/
     tests/
 source-corpus/
   function-test-args-literalized-augmented-v3/
+  proposed-function-formula-simulations/
 scripts/
+  generate_function_tasks.py
+  generate_proposed_function_tasks.py
   sync_shared.py
 ```
 
@@ -96,7 +109,8 @@ After editing `template-task/`, sync helper files and refresh task digests:
 
 ```bash
 python scripts/sync_shared.py
-uv run harbor add tasks --scan --to dataset.toml
+uv run harbor add tasks/fn-* --to dataset.toml
+uv run harbor add tasks/pfn-* --to datasets/proposed-functions/dataset.toml
 ```
 
 ## Protocol
@@ -166,7 +180,7 @@ Install dependencies:
 uv sync
 ```
 
-Smoke-test one task:
+Smoke-test one real-function task:
 
 ```bash
 QUERY_BUDGET=256 uv run harbor run \
@@ -179,16 +193,32 @@ QUERY_BUDGET=256 uv run harbor run \
   --yes
 ```
 
-Run the full checked-in corpus with Codex at concurrency 10:
+Run the real-function corpus with Codex at concurrency 10:
 
 ```bash
 QUERY_BUDGET=256 uv run harbor run \
   -p tasks \
+  -i 'fn-*' \
   -a codex \
   -m gpt-5.5 \
   --agent-env 'OPENAI_API_KEY=${OPENAI_API_KEY}' \
   --env-file .envrc \
   --job-name codex-gpt55-fn-all-q256-c10 \
+  -n 10 \
+  --yes
+```
+
+Run the proposed-function corpus with Codex at concurrency 10:
+
+```bash
+QUERY_BUDGET=256 uv run harbor run \
+  -p tasks \
+  -i 'pfn-*' \
+  -a codex \
+  -m gpt-5.5 \
+  --agent-env 'OPENAI_API_KEY=${OPENAI_API_KEY}' \
+  --env-file .envrc \
+  --job-name codex-gpt55-pfn-all-q256-c10 \
   -n 10 \
   --yes
 ```

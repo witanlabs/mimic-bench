@@ -1,0 +1,264 @@
+# Dataset manifest for mimic-bench/proposed-functions
+# Add tasks using: harbor add <org>/<name>
+# Publish using: harbor publish
+
+[dataset]
+name = "mimic-bench/proposed-functions"
+description = "Proposed Excel-compatible function mimicry tasks."
+keywords = []
+[[dataset.authors]]
+name = "Nuno"
+
+
+[[tasks]]
+name = "mimic-bench/pfn-age"
+digest = "sha256:468de0ba2d7500f3965bf963725faab3a47b273c7d5beade12504e6b40da95f2"
+
+[[tasks]]
+name = "mimic-bench/pfn-amortschedule"
+digest = "sha256:2b3e86f19f0b70b194cf81c03542d251093dc1a589387428303dc6413f4af50b"
+
+[[tasks]]
+name = "mimic-bench/pfn-checkdigit"
+digest = "sha256:50c5b2db916bfb64640b8632e7a80e38dd2ac8d4253abff14709d19b7400c4c2"
+
+[[tasks]]
+name = "mimic-bench/pfn-convolve"
+digest = "sha256:21b6ca851b2e39264e2b1feacf934f7e61f661db6dc1bd5ca1852dcf054425b1"
+
+[[tasks]]
+name = "mimic-bench/pfn-corrmatrix"
+digest = "sha256:ae8d90befac2a692eea959c3bc80deec3384112f9bf0ba01548143680fd4ef43"
+
+[[tasks]]
+name = "mimic-bench/pfn-covmatrix"
+digest = "sha256:593aba21b825273e516bb2a91928b1be7cc96496bfa461a9158ece65d155ef36"
+
+[[tasks]]
+name = "mimic-bench/pfn-crosstab"
+digest = "sha256:1a362c0bb4508b14f9de7cd57c7a43f4128a3794c08b9dfb348bdd6a88c77b3d"
+
+[[tasks]]
+name = "mimic-bench/pfn-csvbuild"
+digest = "sha256:32edf46875731b01b0f0969e0e68c5361234f9c895fa5c4f6d25589489763393"
+
+[[tasks]]
+name = "mimic-bench/pfn-cumproduct"
+digest = "sha256:5aab14e6b678e26cec40ab6e1d86f8e73e46a1589e58cd6b030a5893b81ee58a"
+
+[[tasks]]
+name = "mimic-bench/pfn-cumsum"
+digest = "sha256:87ba1a4233d6e9b8d4997336da6816a722d15b09ec437f7dbcd13492710b1ef5"
+
+[[tasks]]
+name = "mimic-bench/pfn-dateadd"
+digest = "sha256:c361f9653654f49cb5a6b0830439157bcd6252bdbb556b9c7234140ddda1bfd6"
+
+[[tasks]]
+name = "mimic-bench/pfn-datebucket"
+digest = "sha256:e535b11b887087d6ec248234951d712cf06852530f9196b7d1331bd1d8ef4684"
+
+[[tasks]]
+name = "mimic-bench/pfn-datediff"
+digest = "sha256:f4f12e7f6953b83b8ad27e6d3372ff6f7354cad8eb9188e4f0fd878211d16bfc"
+
+[[tasks]]
+name = "mimic-bench/pfn-datetrunc"
+digest = "sha256:3b47914d6689429450811e4c8adc8969389abaf245010c03a977902f07625e24"
+
+[[tasks]]
+name = "mimic-bench/pfn-dense-rank"
+digest = "sha256:6b85e8fdae1f55662a8afe690d9dbc541ded99757212b7919d65f9d6b26bc4b9"
+
+[[tasks]]
+name = "mimic-bench/pfn-diff"
+digest = "sha256:682939bdde46fc3d4b6a12f2363ff0dbc71db3b58473c198737d78d77deeffc7"
+
+[[tasks]]
+name = "mimic-bench/pfn-drawdown"
+digest = "sha256:870214446bc070a30f0df15821e7f7b1b6e3709e54156f753d74b0d4c0edc817"
+
+[[tasks]]
+name = "mimic-bench/pfn-dropblanks"
+digest = "sha256:33c81a7c2d86772f3611f7196dba495c4763d05790b861729486ecaa667b5c62"
+
+[[tasks]]
+name = "mimic-bench/pfn-editdistance"
+digest = "sha256:e557ffa17e42ca8423c4d91fb2ff3ea64ec26611b99c446369d55be4a218026c"
+
+[[tasks]]
+name = "mimic-bench/pfn-ema"
+digest = "sha256:1f7702a0e085f4f47d96008569def991c5bc135dc0f1e821a3931bcaa885ecdd"
+
+[[tasks]]
+name = "mimic-bench/pfn-filldown"
+digest = "sha256:77d17bde22d0da38f656a4e5a0b25f3cc79f1da69b6179dbb9c711d69c75e8a4"
+
+[[tasks]]
+name = "mimic-bench/pfn-fillup"
+digest = "sha256:4babdbd8d3bff477692bffc76f336bdda100106b7df650616f836aed52f372b1"
+
+[[tasks]]
+name = "mimic-bench/pfn-fiscalperiod"
+digest = "sha256:bdc0bd93bdc2e185a86dd0e29f6eb615294b993a61f8e8a9762079f8909529bc"
+
+[[tasks]]
+name = "mimic-bench/pfn-fuzzymatch"
+digest = "sha256:2377844196eb77e9f587e6d20cdeb14890e707e2834f92ac49a90902a9bfff1f"
+
+[[tasks]]
+name = "mimic-bench/pfn-haversine"
+digest = "sha256:a21866471655dc4a86b53ba26dd111475d56e29269107e3bb937f426800657da"
+
+[[tasks]]
+name = "mimic-bench/pfn-histogram"
+digest = "sha256:c1406410ece9cadd59b43705b74ea58447c9926178932f4c6ba111363d9f36ce"
+
+[[tasks]]
+name = "mimic-bench/pfn-ibanvalidate"
+digest = "sha256:7778fee27e7e56589304b3f7d410cd71477d0fcf3d8cdf65bfde8a2856492bc6"
+
+[[tasks]]
+name = "mimic-bench/pfn-imfrompolar"
+digest = "sha256:c5d4d98681ef866cc061efe422f897ddb7f564815febc2adfe3693e941cb5d5b"
+
+[[tasks]]
+name = "mimic-bench/pfn-imtopolar"
+digest = "sha256:9bf2e28f4bb3fed7660b8f3f9d1c32a23dec7acd9fc74202ff77ace65c56998b"
+
+[[tasks]]
+name = "mimic-bench/pfn-isoyear"
+digest = "sha256:bb37e846b3015d7878d71a3675a834aa2a5085179485da79a589895fd67e4651"
+
+[[tasks]]
+name = "mimic-bench/pfn-linearinterp"
+digest = "sha256:322f405bf365b6690ff574c11cad4cfe785dbb880f75c1b44953ec5c6d7a96d5"
+
+[[tasks]]
+name = "mimic-bench/pfn-mad"
+digest = "sha256:86b897c9881d47441758507a2efd5305197e79b000f40f10e4cb163df82fe651"
+
+[[tasks]]
+name = "mimic-bench/pfn-maxdrawdown"
+digest = "sha256:339f1bd93d13702cfd3d0eb214f7a97511e2f02a7e73992f0c6d4e8f512550a9"
+
+[[tasks]]
+name = "mimic-bench/pfn-movingmedian"
+digest = "sha256:662fb2d4f8c49d10d3332c935ed7a8d0bee7a1919cbf3a6b120199bdd70c6984"
+
+[[tasks]]
+name = "mimic-bench/pfn-movingstdev"
+digest = "sha256:ddbe3e97e68d0b7b1bce5268d3fbb34dfa46b7d9a69a6731fca1d24491a4cd73"
+
+[[tasks]]
+name = "mimic-bench/pfn-ngrams"
+digest = "sha256:59174fffa4e1cbf23dcf6ab7fa0b074640881a583dbfb62f46dbd30c1d9094c9"
+
+[[tasks]]
+name = "mimic-bench/pfn-ntile"
+digest = "sha256:d3be83b55f21e5ce863ac3ddaba7bd7eb2bfcd54754255392ce019d712a073fd"
+
+[[tasks]]
+name = "mimic-bench/pfn-outliers"
+digest = "sha256:0f0c5480da4d373490004d2f4e4f8b2c9dac108933bce0d94fce99cf44bf5bd8"
+
+[[tasks]]
+name = "mimic-bench/pfn-periodsplit"
+digest = "sha256:0fd555584d5e652a631d28269e250a6f7d69e3303f5d48539845e6a18d193eac"
+
+[[tasks]]
+name = "mimic-bench/pfn-pointinpolygon"
+digest = "sha256:6e495c729d34aaea4d4e162457e5e158e52a59460f8745bd2444f45ed0ba4315"
+
+[[tasks]]
+name = "mimic-bench/pfn-polyfit"
+digest = "sha256:10c4667cc71da8140746eb16a7ccde15fa83484b4efdc85c271803b69313de6d"
+
+[[tasks]]
+name = "mimic-bench/pfn-polyval"
+digest = "sha256:8f44f60fd024a15eaa36b40367c04aefabab6ac2dbf58e480872e70c14cf1bc6"
+
+[[tasks]]
+name = "mimic-bench/pfn-quantilecut"
+digest = "sha256:9231439d4f68d2db4d84ef5027b9eba250eec67cd0c1280ea15bb62f3aaffbc1"
+
+[[tasks]]
+name = "mimic-bench/pfn-querystringparse"
+digest = "sha256:21876bc065d279d8f49626737880b6a59b3c93e55f6e83de5312cf1d92d2b6af"
+
+[[tasks]]
+name = "mimic-bench/pfn-regexfindall"
+digest = "sha256:ed963295fa411892f7394d4f1cf7c37176ea0a961fa24ee147663470ea226e8e"
+
+[[tasks]]
+name = "mimic-bench/pfn-regexsplit"
+digest = "sha256:8d0c39c13128d786811c3f16711918528dff2d9880ff0f65b5d328fc731a55f6"
+
+[[tasks]]
+name = "mimic-bench/pfn-repeatcols"
+digest = "sha256:1b1ee89bc30817053615ebefad1d86b529ccfebcc4baa5067d99d5a80ec254be"
+
+[[tasks]]
+name = "mimic-bench/pfn-repeatrows"
+digest = "sha256:6fc27b27c3d6d5c69d3194bbf4e38e734d1b1fdd31c895856ffb569bd6027a3e"
+
+[[tasks]]
+name = "mimic-bench/pfn-robustscale"
+digest = "sha256:b71332dfa9a82a815c01c6918e60b8df0396f24fcae87a914553081f2d38d62e"
+
+[[tasks]]
+name = "mimic-bench/pfn-roll"
+digest = "sha256:e4c762b9438ebcf51cbf363eef877974b783e7da76304d0b522ceb0a54e4fe39"
+
+[[tasks]]
+name = "mimic-bench/pfn-rsi"
+digest = "sha256:014127573e1ef7c91e44a696022f9be63c2b058e6e7ede730b412382b08b08ba"
+
+[[tasks]]
+name = "mimic-bench/pfn-shift"
+digest = "sha256:6da224017f94350a4ce926e9ba187f65c554eedd960d3cff305065765b98aaa6"
+
+[[tasks]]
+name = "mimic-bench/pfn-slug"
+digest = "sha256:601c1e6cbbf6516a7dba10c7af2883bda065167ae72c84302c8adc254aaae94a"
+
+[[tasks]]
+name = "mimic-bench/pfn-solvelinear"
+digest = "sha256:f796a40fca6ce41f7a4bf0984e0d66bdf92302977b0a3b428ba02369169f01ec"
+
+[[tasks]]
+name = "mimic-bench/pfn-soundex"
+digest = "sha256:5a008de5ab534d5811d6a665f52d580cd265d1e0fea155f530fda5ea0b5d9c09"
+
+[[tasks]]
+name = "mimic-bench/pfn-stripdiacritics"
+digest = "sha256:afbc0f3ba9c4818dc0ccd94220acc783b9042cf6379ea48f0eab7e78d116267e"
+
+[[tasks]]
+name = "mimic-bench/pfn-textbetween"
+digest = "sha256:2994bf9eee65e6d119b41a2ef0755ac4189b111dd894d1d5257665c166fc450b"
+
+[[tasks]]
+name = "mimic-bench/pfn-tokenize"
+digest = "sha256:8d2ac74e4c723ed9e8344dee7814ab080dcc058b756457089ed06ffb5fac98a3"
+
+[[tasks]]
+name = "mimic-bench/pfn-unpivot"
+digest = "sha256:58dbafdc9b9e81357e44a3ca7756e285874e33a80cd76df5043cd2985e374afa"
+
+[[tasks]]
+name = "mimic-bench/pfn-urlbuild"
+digest = "sha256:1d8a964c6dc8231e8f786fef7a10afbc32493d82a88470bab53939df99090d0b"
+
+[[tasks]]
+name = "mimic-bench/pfn-urlparse"
+digest = "sha256:554a8b93c9eb435f14432d6174d16719ceea4715b46fdfca553d369b494e2f6b"
+
+[[tasks]]
+name = "mimic-bench/pfn-winsorize"
+digest = "sha256:ecac496251968e2973b22984a1eafea5d89a41c8de258e64c7283d492d0be3f4"
+
+[[tasks]]
+name = "mimic-bench/pfn-zscores"
+digest = "sha256:60f8ab90358a8ce1de76769762df0d89527ee3aaeacd54f9585973a195a7c196"
+

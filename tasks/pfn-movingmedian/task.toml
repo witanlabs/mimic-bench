@@ -1,0 +1,49 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "mimic-bench/pfn-movingmedian"
+description = "Infer and implement the Excel-compatible proposed MOVINGMEDIAN function with a runtime-configured oracle query budget."
+authors = [{ name = "Nuno" }]
+keywords = ["oracle", "spec-inference", "jsonl", "proposed-excel-function"]
+
+[metadata]
+difficulty = "medium"
+category = "programming"
+tags = ["oracle", "black-box", "spec-inference", "proposed-excel-function"]
+family = "proposed-function"
+function = "MOVINGMEDIAN"
+arities = [2, 3]
+
+[agent]
+timeout_sec = 1800.0
+user = "agent"
+
+[verifier]
+timeout_sec = 180.0
+environment_mode = "separate"
+network_mode = "public"
+
+[verifier.env]
+WITAN_API_URL = "${WITAN_API_URL}"
+WITAN_API_KEY = "${WITAN_API_KEY}"
+QUERY_BUDGET = "${QUERY_BUDGET}"
+
+[verifier.environment]
+network_mode = "public"
+cpus = 1
+memory_mb = 1024
+storage_mb = 2048
+
+[environment]
+build_timeout_sec = 600.0
+network_mode = "public"
+cpus = 1
+memory_mb = 1024
+storage_mb = 4096
+gpus = 0
+
+[environment.env]
+WITAN_API_URL = "${WITAN_API_URL}"
+WITAN_API_KEY = "${WITAN_API_KEY}"
+QUERY_BUDGET = "${QUERY_BUDGET}"
