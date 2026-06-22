@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_TEMPLATE_TASK = REPO_ROOT / "template-task"
+DEFAULT_TEMPLATE_TASK = REPO_ROOT / "template-fn-task"
 DEFAULT_TASKS_DIR = REPO_ROOT / "tasks"
 STATIC_TEMPLATE_FILES = [
     Path("environment/Dockerfile"),
@@ -32,11 +32,12 @@ def template_owned_files(root: Path) -> list[Path]:
     return sorted(files)
 
 
-def task_dirs(tasks_dir: Path) -> list[Path]:
+def task_dirs(tasks_dir: Path, task_prefix: str | None) -> list[Path]:
     return [
         path
         for path in sorted(tasks_dir.iterdir())
         if path.is_dir() and (path / "task.toml").is_file()
+        and (task_prefix is None or path.name.startswith(task_prefix))
     ]
 
 
@@ -80,12 +81,18 @@ def main() -> None:
     )
     parser.add_argument("--template-task", type=Path, default=DEFAULT_TEMPLATE_TASK)
     parser.add_argument("--tasks-dir", type=Path, default=DEFAULT_TASKS_DIR)
+    parser.add_argument(
+        "--task-prefix",
+        default="fn-",
+        help="Only sync tasks whose directory name starts with this prefix. Use an empty string for all tasks.",
+    )
     args = parser.parse_args()
 
     template_task = args.template_task.resolve()
     tasks_dir = args.tasks_dir.resolve()
     template_files = template_owned_files(template_task)
-    tasks = task_dirs(tasks_dir)
+    task_prefix = args.task_prefix if args.task_prefix else None
+    tasks = task_dirs(tasks_dir, task_prefix)
 
     if not template_task.exists():
         raise SystemExit(f"missing template task: {template_task}")
@@ -94,7 +101,7 @@ def main() -> None:
         missing = ", ".join(str(path.relative_to(template_task)) for path in missing_files)
         raise SystemExit(f"missing template-owned files under {template_task}: {missing}")
     if not tasks:
-        raise SystemExit(f"no task.toml-bearing tasks found under {tasks_dir}")
+        raise SystemExit(f"no matching task.toml-bearing tasks found under {tasks_dir}")
 
     for task_dir in tasks:
         removed, copied = sync_task(template_task, task_dir, template_files)

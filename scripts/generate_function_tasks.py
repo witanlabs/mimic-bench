@@ -14,7 +14,7 @@ DEFAULT_SOURCE_DIR = Path(
     REPO_ROOT / "source-corpus" / "function-test-args-literalized-augmented-v3"
 )
 DEFAULT_TASKS_DIR = REPO_ROOT / "tasks"
-DEFAULT_TEMPLATE_TASK = REPO_ROOT / "template-task"
+DEFAULT_TEMPLATE_TASK = REPO_ROOT / "template-fn-task"
 DEFAULT_QUERY_BUDGET = 256
 EXCLUDED_FUNCTIONS = {"RAND", "RANDARRAY", "RANDBETWEEN", "NOW", "TODAY"}
 CSHARP_MARKER_RE = re.compile(r"ToInvariantString|\.ToString\(|nameof\(|\$\"")

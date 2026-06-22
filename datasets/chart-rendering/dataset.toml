@@ -1,0 +1,72 @@
+[dataset]
+name = "mimic-bench/chart-rendering"
+description = "Harbor dataset for oracle-backed chart-rendering coding-agent tasks."
+keywords = [ "oracle", "chart-rendering", "terminal", "coding-agents",]
+[[dataset.authors]]
+name = "Nuno"
+
+
+[[tasks]]
+name = "mimic-bench/chart-column"
+digest = "sha256:dfbc5be7baf37e7bdb87983166c9de2282d790517a5bec79a2213755bcb96095"
+
+[[tasks]]
+name = "mimic-bench/chart-area"
+digest = "sha256:5a92fa42260fe507fe036f23e966947838095caf65029341bef662cadee48e41"
+
+[[tasks]]
+name = "mimic-bench/chart-bar"
+digest = "sha256:d88e0a28e1c2eeb8a105f0b59422594e3ade575e8bb8cb876fb88aba73980152"
+
+[[tasks]]
+name = "mimic-bench/chart-box-whisker"
+digest = "sha256:6ac026ae4d0578e1a1c9429b2a2de6436d01eb8aa63c7102550fc6c092bc91a1"
+
+[[tasks]]
+name = "mimic-bench/chart-bubble"
+digest = "sha256:a58a8e760be87ac031a84094d13966e3e18fb8cdb11a500453d34036412dcc67"
+
+[[tasks]]
+name = "mimic-bench/chart-doughnut"
+digest = "sha256:3e6fa588c22898c7ca233016125e9349953dbd6ac16722bb295b259a814013da"
+
+[[tasks]]
+name = "mimic-bench/chart-funnel"
+digest = "sha256:ccd82e5cff75710b3664ce0faad1cc83997ed2795c4c2a40ae14ed1fe8080378"
+
+[[tasks]]
+name = "mimic-bench/chart-histogram"
+digest = "sha256:c82bb0f462a9ba9eac91ab8b52f1492d91c31b296eae16c105eae81f67a6bbef"
+
+[[tasks]]
+name = "mimic-bench/chart-line"
+digest = "sha256:92524b2ae6412c29677e00e9d67334782f50f55b75ba7a0213f80055b0551029"
+
+[[tasks]]
+name = "mimic-bench/chart-pareto"
+digest = "sha256:aa02c81b02e30589dfd1143736f790bfea0c1804db009ec12bd543494751d63b"
+
+[[tasks]]
+name = "mimic-bench/chart-pie"
+digest = "sha256:a53682edc77abaa6867194cdf7dad743d6f5519f2cd711d4c9a0e74810ee214f"
+
+[[tasks]]
+name = "mimic-bench/chart-radar"
+digest = "sha256:0b04d12a5ab812745c9d5a76413f824d541a494ca0c422e2b8dd1d77f211a839"
+
+[[tasks]]
+name = "mimic-bench/chart-scatter"
+digest = "sha256:c028666abc81a9f9d7c67afbc6cf5166eabe012f8bb399ed557d8c1076ae6d50"
+
+[[tasks]]
+name = "mimic-bench/chart-stock"
+digest = "sha256:f4d404807ccb034a54dbab6f57e1ebecd77ba74aaf3ba8fa1d76f153054d16b6"
+
+[[tasks]]
+name = "mimic-bench/chart-surface"
+digest = "sha256:d77b0c2737a5c8e49c4efae67e23eba91ee85de23176c37cf1c0b57d360b6bce"
+
+[[tasks]]
+name = "mimic-bench/chart-waterfall"
+digest = "sha256:1152bd51d4658c1d14fa852ff43e8307f42ff8f93130372ad949cd6f3f08e4de"
+

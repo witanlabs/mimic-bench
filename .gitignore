@@ -58,3 +58,4 @@ jobs/
 trials/
 logs/
 tmp/
+.tmp/
